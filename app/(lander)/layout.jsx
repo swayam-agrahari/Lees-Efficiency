@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <div className="bg-[#fff6ec]">
-      {/* <Navbar open={open} darkSection={darkSection} hero={false} /> */}
+      <Navbar open={open} darkSection={darkSection} hero={false} />
       {children}
     </div>
   );
