@@ -2,11 +2,12 @@
 import LandingPage from "../../components/LandingPage";
 import Expertise from "@/components/expertise/expertise";
 import AboutUs from "@/components/about/about_us.jsx"
-import ContactUs from "@/components/contact-us/contact_us";
 import Academy from "@/components/academy/academy";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Lander from ".";
+import ContactUsForm from "@/components/contact-us/contact_us_form";
+import ContactUsFooter from "@/components/contact-us/contact_us_footer";
 
 export default function Home() {
   const ref = useRef(null);
@@ -34,7 +35,8 @@ export default function Home() {
       </div>
       <Expertise />
       <Academy />
-      <ContactUs />
+      <ContactUsForm/>
+      <ContactUsFooter/>
     </div>
   );
 }

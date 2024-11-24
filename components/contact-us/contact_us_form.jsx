@@ -1,4 +1,4 @@
-export default function ContactUs(){
+export default function ContactUsForm(){
     return(
         <div className="flex justify-center w-full mt-[5vw]">
             <div className="bg-white w-[70vw] flex flex-col items-center justify-center p-[2vw] rounded-[.5vw]">
