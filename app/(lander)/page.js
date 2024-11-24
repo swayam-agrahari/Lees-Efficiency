@@ -20,10 +20,10 @@ export default function Home() {
     <div ref={ref} className="min-w-full min-h-full bg-[#1c1c1c] text-black  relative">
       {/* Parallax background */}
       <motion.div
-        className="min-h-screen z-10 pb-10"
+        className="min-h-screen  pb-10"
         style={{ y: backgroundY }}
       >
-        <LandingPage backgroundY={backgroundY} />
+        <LandingPage />
       </motion.div>
 
       <div className=" z-20">

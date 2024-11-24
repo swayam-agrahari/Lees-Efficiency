@@ -3,7 +3,7 @@ import Image from "next/image";
 import { TextFade } from "./framer/TextFade";
 import { motion } from "framer-motion";
 
-export default function LandingPage({ backgroundY }) {
+export default function LandingPage() {
     const scrollToAboutUs = () => {
         const aboutUsSection = document.getElementById("about-us");
         aboutUsSection.scrollIntoView({ behavior: "smooth" });
@@ -15,7 +15,7 @@ export default function LandingPage({ backgroundY }) {
             <motion.div
                 className="absolute min-w-full min-h-screen"
                 style={{
-                    y: backgroundY, // Parallax effect on background only
+
                     backgroundPosition: "bottom",
                     backgroundSize: "cover"
                 }}
