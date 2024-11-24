@@ -36,6 +36,9 @@ export default function Home() {
       <Expertise />
       <Academy />
       <ContactUsForm/>
+      <div className="w-full px-[5vw] mt-[5vw] mb-[1vw]">
+        <div className="border-t-[#737373] border-solid border-t-2 max-w-[90vw]"></div>
+      </div>
       <ContactUsFooter/>
     </div>
   );
