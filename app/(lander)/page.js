@@ -1,6 +1,7 @@
 import LandingPage from "../../components/LandingPage";
 import Expertise from "@/components/expertise/expertise";
 import AboutUs from "@/components/about/about_us.jsx"
+import ContactUs from "@/components/contact-us/contact_us";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <AboutUs/>
       {/* <LandingPage/> */}
       <Expertise/>
+      <ContactUs/>
     </div>
   );
 }
