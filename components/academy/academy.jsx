@@ -1,5 +1,3 @@
-import PublicationBox from "./publication_box";
-
 export default function Academy() {
   return (
     <div className="bg-white text-black w-full flex flex-col items-center">
@@ -30,7 +28,7 @@ export default function Academy() {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/Video1"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -41,7 +39,7 @@ export default function Academy() {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/Video2"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
