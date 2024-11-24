@@ -11,6 +11,7 @@ export default function LandingPage() {
                 <Image
                     src="/assets/bg.png"
                     alt="background"
+                    width={1920}
                     height={1100}
                     objectFit="cover"
                     objectPosition="center"
