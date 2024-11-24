@@ -9,8 +9,8 @@ import Image from "next/image"
 
 export default function ContactUsFooter(){
     return(
-        <div className="text-white bg-black min-h-[30vw] flex flex-col px-[5vw]">
-            <div className="min-h-[15vw] flex">
+        <div className="text-white bg-black min-h-[20vw] flex flex-col px-[5vw]">
+            <div className="min-h-[12vw] flex">
                 <div className="flex-1">
                     <p className="text-[2.2vw] tracking-tight -mb-[1vw]">Get in touch</p>
                     <p className="text-[2.2vw] underline text-[#737373]">leelock@leesenergysolutions.com</p>
@@ -20,44 +20,46 @@ export default function ContactUsFooter(){
             <div className="w-full flex flex-1">
                 <div className="flex-[2] flex flex-col">
                     <p className="flex-1 text-[1.4vw]">The Cure for <br/>the Wasting Disease </p>
-                    <div className="flex items-end group">
-                        <button className="size-[7vw] group-hover:text-white text-[#737373] -rotate-[135deg] transition duration-300 ease-out" onClick={()=>{scrollTo(0,0)}}><CornerArrow/></button>
-                        <p className="text-[1.5vw] tracking-tighter group-hover:block transition-all duration-300 ease-out group-hover:opacity-100 opacity-0 group-hover:text-white  -ml-[2vw]">Scroll to top</p>
+                    <div className="flex">
+                        <div className="flex group items-end">
+                            <button className="size-[7vw] group-hover:text-white text-[#737373] -rotate-[135deg] transition duration-300 ease-out" onClick={()=>{scrollTo(0,0)}}><CornerArrow/></button>
+                            <p className="text-[1.5vw] tracking-tighter group-hover:block transition-all duration-300 ease-out group-hover:opacity-100 opacity-0 group-hover:text-white  -ml-[2vw]">Scroll to top</p>
+                        </div>
                     </div>
                 </div>
                 <div className="flex-1">
                     <p className="text-[1.2vw] text-[#737373] font-semibold">Quick Links</p>
-                    <div className="flex flex-col flex-1 gap-y-[.3vw] text-[1.1vw] font-extralight">
-                        <p className="flex items-center gap-x-[.4vw] font-[100]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                    <div className="flex flex-col flex-1 gap-y-[.3vw] text-[1.1vw] font-extralight mr-[2vw]">
+                        <p className="flex items-center gap-x-[.4vw] font-[100] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             <span className="">Home</span>
                         </p>
-                        <p className="flex items-center gap-x-[.4vw]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                        <p className="flex items-center gap-x-[.4vw] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             About Us
                         </p>
-                        <p className="flex items-center gap-x-[.4vw]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                        <p className="flex items-center gap-x-[.4vw] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             Expertise
                         </p>
-                        <p className="flex items-center gap-x-[.4vw]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                        <p className="flex items-center gap-x-[.4vw] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             Lees Academy
                         </p>
-                        <p className="flex items-center gap-x-[.4vw]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                        <p className="flex items-center gap-x-[.4vw] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             Awards
                         </p>
-                        <p className="flex items-center gap-x-[.4vw]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                        <p className="flex items-center gap-x-[.4vw] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             Contact Us
                         </p>
-                        <p className="flex items-center gap-x-[.4vw]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                        <p className="flex items-center gap-x-[.4vw] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             Privacy Policy
                         </p>
-                        <p className="flex items-center gap-x-[.4vw]">
-                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] rounded-full"></span>
+                        <p className="flex items-center gap-x-[.4vw] hover:bg-white group rounded-full hover:text-black">
+                            <span className="h-[.4vw] w-[.4vw] bg-[#737373] group-hover:bg-white rounded-full"></span>
                             Terms & Privacy
                         </p>
                     </div>
@@ -90,6 +92,7 @@ export default function ContactUsFooter(){
                     </div>
                 </div>
             </div>
+            <div className="flex justify-center text-[1vw] text-[#737373] my-[2vw]">Copyright 2024 Lees Energy Solutions, Pte. Ltd. All Rights Reserved</div>
         </div>
     )
 }
