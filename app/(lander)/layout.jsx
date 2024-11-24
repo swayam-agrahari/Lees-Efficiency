@@ -2,6 +2,12 @@
 
 import Navbar from "@/components/navbar/navbar";
 import { useEffect, useState, useRef } from "react";
+import { Roboto } from "next/font/google"
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ["100", "300", "400", "700", "900"]
+})
 
 export default function RootLayout({ children }) {
   const [open, setOpen] = useState(true);
@@ -39,7 +45,7 @@ export default function RootLayout({ children }) {
       const windowHeight = window.innerHeight;
 
       // Check dark sections
-    //   checkDarkSections();
+      //   checkDarkSections();
 
       // Hero section check
       if (
@@ -81,9 +87,13 @@ export default function RootLayout({ children }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
-    <div className="bg-[#fff6ec]">
-      <Navbar open={open} darkSection={darkSection} hero={false} />
-      {children}
+    <div className={`${roboto.className} bg-transparent`}>
+
+      <Navbar open={open} darkSection={darkSection} hero={true} />
+      <div className="max-w-screen md:-mt-[6vw] max-md:-mt-[-9vw] ">
+        {children}
+      </div>
+      {/* {children} */}
     </div>
   );
 }
