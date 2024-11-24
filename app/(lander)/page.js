@@ -30,6 +30,7 @@ export default function Home() {
         <AboutUs />
       </div>
       <Expertise />
+      <Academy/>
       <ContactUs />
     </div>
   );
