@@ -37,7 +37,7 @@ export default function Navbar({ open, hero, darkSection }) {
                         src="/assets/lee-logo1.png"
                         width={1}
                         height={1}
-                        className="mix-blend-m h-[4vw] max-md:h-[15vw] max-md:pl-[2vw] w-auto -mr-[2vw] mx-[2vw]"
+                        className="mix-blend-multiply h-[4vw] max-md:h-[15vw] max-md:pl-[2vw] w-auto -mr-[2vw] mx-[2vw]"
                         alt="Logo"
                         unoptimized
                     />
