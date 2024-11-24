@@ -1,6 +1,6 @@
 export default function ContactUs(){
     return(
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full mt-[5vw]">
             <div className="bg-white w-[70vw] flex flex-col items-center justify-center p-[2vw] rounded-[.5vw]">
                 <p className="text-[1.5vw] mb-[1vw]">CONTACT US</p>
                 <form className="text-[1.2vw] flex flex-col w-full gap-y-[1vw]">
