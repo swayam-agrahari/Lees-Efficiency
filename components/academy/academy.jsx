@@ -8,7 +8,7 @@ export default function Academy() {
 
       <div className="w-full max-w-[90vw] flex flex-row gap-5 justify-center md:gap-[5vw] pb-[1vw]">
 
-        <div className="group bg-black w-[300px] h-[150px] flex flex-col justify-between mb-10 rounded-lg relative transition-all duration-300">
+        <div className="group bg-black w-[25vw] h-[12.5vw] flex flex-col justify-between mb-10 rounded-lg relative transition-all duration-300">
           <div className="absolute top-2 right-2 transition-all duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ export default function Academy() {
           </div>
         </div>
 
-        <div className="w-[300px] h-[150px] bg-gray-200 flex items-center justify-center rounded-lg overflow-hidden">
+        <div className="w-[25vw] h-[12.5vw] bg-gray-200 flex items-center justify-center rounded-lg overflow-hidden">
           <iframe
             width="100%"
             height="100%"
@@ -35,7 +35,7 @@ export default function Academy() {
           ></iframe>
         </div>
 
-        <div className="w-[300px] h-[150px] bg-gray-200 flex items-center justify-center rounded-lg overflow-hidden">
+        <div className="w-[25vw] h-[12.5vw] bg-gray-200 flex items-center justify-center rounded-lg overflow-hidden">
           <iframe
             width="100%"
             height="100%"
