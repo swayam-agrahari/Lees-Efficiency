@@ -33,11 +33,12 @@ export default function Navbar({ open, hero, darkSection }) {
                         transition: { duration: 0.3, delay: 0.1 }
                     }}>
 
+
                     <Image
-                        src="/assets/lee-logo1.png"
+                        src="/assets/logo.png"
                         width={1}
                         height={1}
-                        className="mix-blend-multiply h-[4vw] max-md:h-[15vw] max-md:pl-[2vw] w-auto -mr-[2vw] mx-[2vw]"
+                        className="mix-blend-multiply h-[4vw] max-md:h-[8vh] max-md:pl-[2vw] w-auto -mr-[2vw] mx-[2vw]"
                         alt="Logo"
                         unoptimized
                     />
@@ -47,6 +48,7 @@ export default function Navbar({ open, hero, darkSection }) {
                         return (
                             <div
                                 key={i}
+                                className="relative group"
                             >
                                 <motion.div initial={{
                                     opacity: 0,
@@ -61,9 +63,10 @@ export default function Navbar({ open, hero, darkSection }) {
 
                                     <Link
                                         href={link.link}
-                                        className={`mx-[1vw] ${textColor} transition ease-in duration-300`}
+                                        className={`mx-[1vw] ${textColor} transition ease-in duration-300  `}
                                     >
                                         {link.name}
+                                        <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-px bg-white transition-width duration-300 group-hover:w-[80%]"></span>
                                     </Link>
                                 </motion.div>
                             </div>
@@ -82,12 +85,7 @@ export default function Navbar({ open, hero, darkSection }) {
                         transition: { duration: 0.3, delay: 0.4 }
                     }}
                 >
-                    <motion.button
-                        whileTap={{ scaleX: 0.95 }}
-                        className="inline-block px-7 py-2 text-md  text-center text-black  transition bg-[#d2c5b1] rounded shadow ripple hover:shadow-lg hover:bg-[#d8c3a3] focus:outline-none"
-                    >
-                        Contact
-                    </motion.button>
+
                 </motion.div>
                 <div className="flex justify-end items-center text-5xl px-5 md:hidden max-md:flex-1">
                     <button className="text-[6vw]" onClick={() => { setOpenMenu(true) }}>

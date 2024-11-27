@@ -2,9 +2,9 @@
 
 import Navbar from "@/components/navbar/navbar";
 import { useEffect, useState, useRef } from "react";
-import { Roboto } from "next/font/google"
+import { Poppins } from "next/font/google"
 
-const roboto = Roboto({
+const poppins = Poppins({
   subsets: ['latin'],
   weight: ["100", "300", "400", "700", "900"]
 })
@@ -87,10 +87,10 @@ export default function RootLayout({ children }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
-    <div className={`${roboto.className} bg-transparent`}>
+    <div className={`${poppins.className} min-w-[100vw] bg-transparent overflow-hidden`}>
 
       <Navbar open={open} darkSection={darkSection} hero={true} />
-      <div className="max-w-screen md:-mt-[6vw] max-md:-mt-[-9vw] ">
+      <div className="max-w-screen md:-mt-[6vw] max-md:-mt-[14vh] -mt-[10vh]  overflow-x-hidden ">
         {children}
       </div>
       {/* {children} */}

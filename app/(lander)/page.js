@@ -6,6 +6,7 @@ import ContactUs from "@/components/contact-us/contact_us";
 import Academy from "@/components/academy/academy";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Lander from ".";
 
 export default function Home() {
   const ref = useRef(null);
@@ -18,20 +19,21 @@ export default function Home() {
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]); // Parallax speed adjusted here
 
   return (
-    <div ref={ref} className="min-w-full min-h-full bg-[#1c1c1c] text-black  relative">
+    <div ref={ref} className="min-w-screen min-h-full bg-black text-black ">
       {/* Parallax background */}
       <motion.div
-        className="min-h-screen  pb-10"
+        className="min-h-[102vh] "
         style={{ y: backgroundY }}
       >
-        <LandingPage />
+        <Lander />
+        {/* <LandingPage /> */}
       </motion.div>
 
       <div className=" z-20">
         <AboutUs />
       </div>
       <Expertise />
-      <Academy/>
+      <Academy />
       <ContactUs />
     </div>
   );
