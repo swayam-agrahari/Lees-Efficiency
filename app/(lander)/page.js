@@ -8,6 +8,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Lander from ".";
 import ContactUsForm from "@/components/contact-us/contact_us_form";
 import ContactUsFooter from "@/components/contact-us/contact_us_footer";
+import Publications from "@/components/publications/publications";
 
 export default function Home() {
   const ref = useRef(null);
@@ -33,6 +34,7 @@ export default function Home() {
       <div className=" z-20">
         <AboutUs />
       </div>
+      <Publications/>
       <Expertise />
       <Academy />
       <ContactUsForm/>
