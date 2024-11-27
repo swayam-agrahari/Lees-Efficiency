@@ -4,6 +4,7 @@ import Image from "next/image"
 import data from "@/components/json/publications.json"
 import { useState } from "react"
 import Link from "next/link"
+import CornerArrow from "../svg/corner-arrow"
 
 export default function Publications(){
     const [curr, setCurr]=useState('/');
@@ -30,7 +31,8 @@ export default function Publications(){
                              onMouseEnter={() => handleHover(index)}
                              onMouseLeave={() => handleClear()}
                              key={index} 
-                             className="group relative border-b-[1px] border-solid border-black text-[1.4vw] text-black hover:text-white bg-transparent z-10 p-[.7vw] transition-all ease-in-out duration-500">
+                             className="group flex relative gap-x-[.5vw] border-b-[1px] border-solid border-black text-[1.4vw] text-black hover:text-white bg-transparent z-10 p-[.7vw] transition-all ease-in-out duration-500">
+                                <p className="size-[1.5vw] mt-[.3vw] -rotate-90 [&:not(:hover)]:hidden group-hover:block"><CornerArrow/></p>
                                 {data[index].title}
                                 {/* <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#ffc506] transition-all ease-in-out duration-500 group-hover:w-full"></span> */}
                                 <span className="absolute left-0 bottom-0 h-0 w-full bg-black transition-all ease-in-out duration-400 z-[-1] group-hover:h-full"></span>
