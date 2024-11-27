@@ -3,6 +3,7 @@ import LandingPage from "../../components/LandingPage";
 import Expertise from "@/components/expertise/expertise";
 import AboutUs from "@/components/about/about_us.jsx"
 import ContactUs from "@/components/contact-us/contact_us";
+import Academy from "@/components/academy/academy";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -30,6 +31,7 @@ export default function Home() {
         <AboutUs />
       </div>
       <Expertise />
+      <Academy/>
       <ContactUs />
     </div>
   );
