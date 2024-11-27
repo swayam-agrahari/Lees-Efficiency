@@ -1,34 +1,42 @@
 [
     {
         "title":"Ascendas invests in energy efficient upgrades to its building",
-        "imgPath":"/assets/publications/Ascendas invests in energy efficient upgrades to its building.png"
+        "imgPath":"/assets/publications/Ascendas invests in energy efficient upgrades to its building.png",
+        "filePath":"/assets/publications/files/Ascendas-invests-in-energy-efficient-upgrades.pdf"
     },
     {
         "title":"Development and Testing of an Information Monitoring and Diagnostics System for Large Commercial Buildings",
-        "imgPath":"/assets/publications/Development and Testing of an Information Monitoring and Diagnostics System for Large Commercial Buildings.png"
+        "imgPath":"/assets/publications/Development and Testing of an Information Monitoring and Diagnostics System for Large Commercial Buildings.png",
+        "filePath":"/assets/publications/files/Lee_Peter_Monitoring_Diagnostics.pdf"
     },
     {
         "title":"Natural Capitalism",
-        "imgPath":"/assets/publications/natural_capitalism.png"
+        "imgPath":"/assets/publications/natural_capitalism.png",
+        "filePath":"/assets/publications/files/LEL in book -Nat Capitalism.ppt"
     },
     {
         "title":"Charging Ahead – Miniaturing Energy Demands",
-        "imgPath":"/assets/publications/Charging Ahead – Miniaturing Energy Demands.png"
+        "imgPath":"/assets/publications/Charging Ahead – Miniaturing Energy Demands.png",
+        "filePath":"/assets/publications/files/LEL in book ChargingAhead.ppt"
     },
     {
         "title":"Factor Four: Doubling Wealth, Halving Resource Use",
-        "imgPath":"/assets/publications/Factor Four: Doubling Wealth, Halving Resource Use.png"
+        "imgPath":"/assets/publications/Factor Four: Doubling Wealth, Halving Resource Use.png",
+        "filePath":"/assets/publications/files/LEL in book Factor 4.pdf"
     },
     {
         "title":"Cool Companies - Efficiency is Free Ask For More",
-        "imgPath":"/assets/publications/Cool Companies - Efficiency is Free Ask For More.png"
+        "imgPath":"/assets/publications/Cool Companies - Efficiency is Free Ask For More.png",
+        "filePath":"/assets/publications/files/LEL in book Cool Companies.ppt"
     },
     {
         "title":"Pioneering Net Zero Buildings – The Infosys Journey",
-        "imgPath":"/assets/publications/Pioneering Net Zero Buildings – The Infosys Journey.png"
+        "imgPath":"/assets/publications/Pioneering Net Zero Buildings – The Infosys Journey.png",
+        "filePath":"/assets/publications/files/pioneering-net-zero-buildings (3).pdf"
     },
     {
         "title":"SS 591: Code of practice for long term measurement of central chilled water system energy efficiency",
-        "imgPath":"/assets/publications/SS 591: Code of practice for long term measurement of central chilled water system energy efficiency.png"
+        "imgPath":"/assets/publications/SS 591: Code of practice for long term measurement of central chilled water system energy efficiency.png",
+        "filePath":"/assets/publications/files/SS 591-2013(plus)Corr1_Preview (1).pdf"
     }
 ]

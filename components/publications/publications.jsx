@@ -3,6 +3,7 @@
 import Image from "next/image"
 import data from "@/components/json/publications.json"
 import { useState } from "react"
+import Link from "next/link"
 
 export default function Publications(){
     const [curr, setCurr]=useState('/');
@@ -24,7 +25,8 @@ export default function Publications(){
                     </div>
                     <div className="flex flex-[2] flex-col w-full">
                         {data.map((key, index)=>(
-                            <div 
+                            <Link 
+                             href={data[index].filePath}
                              onMouseEnter={() => handleHover(index)}
                              onMouseLeave={() => handleClear()}
                              key={index} 
@@ -32,7 +34,7 @@ export default function Publications(){
                                 {data[index].title}
                                 {/* <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#ffc506] transition-all ease-in-out duration-500 group-hover:w-full"></span> */}
                                 <span className="absolute left-0 bottom-0 h-0 w-full bg-black transition-all ease-in-out duration-400 z-[-1] group-hover:h-full"></span>
-                            </div>
+                            </Link>
                         ))}
                     </div>
                 </div>
