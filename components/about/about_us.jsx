@@ -1,50 +1,86 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
+import Arrow from "@/components/svg/upward-arror";
 
 export default function AboutUs() {
     return (
-        <div className="max-w-full relative bg-[#eee2d0] " id="about-us">
-            <div className="min-h-screen max-w-full flex  flex-col lg:flex-row gap-x-4">
-                {/* Left and Right Sections */}
-                <div className="bg-red-300 flex-1  ">
-                    <p className="text-center text-xl md:text-2xl lg:text-3xl">Image</p>
-                </div>
+        <div
+            className="bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center py-16 px-6 lg:px-24 "
+            id="about-us"
+        >
+            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mt:[15vw]">
+                {/* Left Section: Content */}
+                <motion.div
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 1 }}
+                    className="space-y-6 lg:space-y-8"
+                >
+                    <h2 className="text-[2.2vw] text-black w-full max-w-[90vw] mb-[3vw] mt-[4vw] flex">
+                        About Us
+                    </h2>
+                    <p className="text-lg lg:text-xl leading-relaxed text-gray-700">
+                        LEES Energy Solutions Pte Ltd specializes in state-of-the-art technologies, innovative design, financial analysis, and comprehensive project
+                        management for energy-efficient building solutions.
+                    </p>
+                    <p className="text-lg lg:text-xl leading-relaxed text-gray-700">
+                        Guided by an integrated building lifecycle approach, we support sustainable building operations through every phase: energy audits, design, construction, commissioning, measurement and verification, and ongoing operations and maintenance.
+                    </p>
+                    <p className="text-lg lg:text-xl font-medium text-gray-800">
+                        Our Energy Team is led by our founder,{" "}
+                        <span className="text-gray-900 font-semibold">
+                            Lee Eng Lock, a recognized energy efficiency guru and one of the world’s foremost advocates and innovators in energy conservation, with over 30 years of experience.
+                        </span>
+                    </p>
+                    <motion.button
+                                className="relative group border  border-gray-800 text-gray-800 [@media(max-width:320px)]:px-3  [@media(max-width:320px)]:py-1  px-6 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-white hover:bg-gray-800  "
+                                whileTap={{ scaleX: 1.5 }}
+                            >
+                                <span className="relative group-hover:text-white text-lg">Read More</span>
+                                <span className="z-10"><Arrow /></span>
+                            </motion.button>
+                </motion.div>
 
+                {/* Right Section: Zig-Zag Images */}
+                <div className="relative flex flex-col gap-6 items-center">
+                    {/* Top Image */}
+                    <motion.div
+                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform rotate-[-5deg]"
+                    >
+                        <Image
+                            alt="Top Image"
+                            src="/assets/lees.png"
+                            fill
+                            className="object-center"
+                            unoptimized
+                        />
+                    </motion.div>
 
-                {/* Center Image Section */}
-                <div className="flex-1  flex justify-center">
-                    <Image
-                        alt="lees"
-                        src={"/assets/lees.png"}
-                        width={500}
-                        height={600}
-                        className="w-full h-full object-contain mix-blend-darken"
-                        unoptimized
-                    />
-                </div>
+                    {/* Middle Image */}
+                    <motion.div
+                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform rotate-[3deg] translate-x-6 lg:translate-x-[15vw]"
+                    >
+                        <Image
+                            alt="Middle Image"
+                            src="/assets/lees.png"
+                            fill
+                            className="object-center"
+                            unoptimized
+                        />
+                    </motion.div>
 
-                <div className="bg-red-300 flex-1  ">
-                    <p className="text-center text-xl md:text-2xl lg:text-3xl">Image</p>
-                </div>
-            </div>
-
-            {/* Overlay Section with Gradient */}
-            <div className="absolute z-10 top-0 w-full h-full flex flex-col justify-end bg-gradient-to-t from-white to-transparent opacity-80 pb-16 lg:pb-[6vw] px-4 sm:px-8">
-                <div className="flex-1 flex flex-col justify-end items-center text-center">
-                    <div className="text-center opacity-100 mb-6">
-                        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight font-semibold mb-4">
-                            About Us
-                        </p>
-                        <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight font-semibold">
-                            LEE Energy Solutions
-                        </p>
-                    </div>
-                    <div className="max-w-[90vw] sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw]">
-                        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center">
-                            LEES Energy Solutions Pte Ltd specializes in state-of-the-art technologies, innovative design, financial analysis, and comprehensive project
-                            management for energy-efficient building solutions. Guided by an integrated building approach, we drive sustainability with cutting-edge
-                            technologies and solutions.
-                        </p>
-                    </div>
+                    {/* Bottom Image */}
+                    <motion.div
+                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform rotate-[-5deg]"
+                    >
+                        <Image
+                            alt="Bottom Image"
+                            src="/assets/lees.png"
+                            fill
+                            className="object-center"
+                            unoptimized
+                        />
+                    </motion.div>
                 </div>
             </div>
         </div>
