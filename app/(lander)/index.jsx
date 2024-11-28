@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { TextFade } from "../../components/framer/TextFade";
 import { motion } from "framer-motion";
-import Arrow from "@/components/svg/upward-arror";
+import Arrow from "../../components/svg/upward-arror";
 
 export default function Lander() {
     const scrollToAboutUs = () => {
