@@ -1,7 +1,7 @@
 export default function ContactUsForm() {
     return (
         <section className="bg-black body-font relative min-w-[95vw] flex">
-            <div className="mx-auto px-[4vw] w-full flex-1">
+            <div className="mx-auto px-[4vw] pt-[4vw] w-full flex-1">
                 <p className="text-white text-[4vw] max-md:text-[8vw] mb-[4vw]">Contact Us</p>
                 
                 <div className="flex sm:flex-nowrap flex-wrap">
