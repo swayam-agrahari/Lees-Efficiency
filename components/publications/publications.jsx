@@ -16,8 +16,8 @@ export default function Publications(){
     }
     return(
         <div className="bg-white text-black 2xl:min-h-screen flex flex-col items-center py-[3vw]">
-            <div className="text-[4vw] flex justify-start w-full px-[2.5vw] tracking-tight max-md:text-[13vw]">Publications</div>
-            <div className="flex justify-start w-full text-[4vw] px-[2.5vw] -mt-[1.7vw] mb-[2vw] max-md:mb-[6vw] tracking-tighter max-md:text-[13vw] max-md:leading-[12vw]">Advancing energy efficiency for a waste-free future.</div>
+            <div className="text-[4vw] flex justify-start w-full px-[2.5vw] tracking-tight max-md:text-[10vw] font-medium">Publications</div>
+            <div className="flex justify-start w-full text-[4vw] px-[2.5vw] -mt-[1.7vw] mb-[2vw] max-md:mb-[6vw] tracking-tighter  max-md:text-[7vw] max-md:leading-[12vw]">Advancing energy efficiency for a waste-free future.</div>
             <div className="border-b-[1px] border-solid border-black w-full"></div>
             <div className="min-w-[100vw] max-w-[100vw] flex flex-col">
                 <div className="flex flex-1">
