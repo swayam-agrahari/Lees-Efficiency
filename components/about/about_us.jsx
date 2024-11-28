@@ -12,7 +12,7 @@ export default function AboutUs() {
 
     return (
         <div
-            className="bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center pb-16 pt-8 px-6 lg:px-24 "
+            className="bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center pb-16 pt-8 px-6 lg:px-24"
             id="about-us"
         >
             <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mt:[15vw]">
@@ -50,10 +50,10 @@ export default function AboutUs() {
                 </motion.div>
 
                 {/* Right Section: Zig-Zag Images */}
-                <div className="relative flex flex-col gap-6 items-center">
+                <div className="relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 items-center">
                     {/* Top Image */}
                     <motion.div
-                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform lg:rotate-[-5deg] lg:translate-x-0"
+                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[-5deg]"
                     >
                         <Image
                             alt="Top Image"
@@ -66,7 +66,7 @@ export default function AboutUs() {
 
                     {/* Middle Image */}
                     <motion.div
-                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform lg:rotate-[3deg] lg:translate-x-[15vw]"
+                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[3deg] lg:translate-x-40"
                     >
                         <Image
                             alt="Middle Image"
@@ -79,7 +79,7 @@ export default function AboutUs() {
 
                     {/* Bottom Image */}
                     <motion.div
-                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform lg:rotate-[-5deg] lg:translate-x-0"
+                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[-5deg]"
                     >
                         <Image
                             alt="Bottom Image"
