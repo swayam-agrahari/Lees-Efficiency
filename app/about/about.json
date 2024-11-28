@@ -1,0 +1,118 @@
+{
+  "company_overview": {
+    "description": "LEES Energy Solutions Pte Ltd specializes in state-of-the-art technologies, innovative design, financial analysis, and comprehensive project management for energy-efficient building solutions.",
+    "approach": "Guided by an integrated building lifecycle approach, we support sustainable building operations through every phase: energy audits, design, construction, commissioning, measurement and verification, and ongoing operations and maintenance."
+  },
+  "team": [
+    {
+      "name": "Lee Eng Lock",
+      "position": "Founder",
+      "brief": "A recognized energy efficiency guru and one of the world's foremost advocates and innovators in energy conservation, with over 30 years of experience.",
+      "research_collaborations": [
+        "Performance Assessment and Adoption Processes of an Information Monitoring and Diagnostic System Prototype (CEC/CIEE, 1999)",
+        "Early Results and Field Tests of an Information Monitoring and Diagnostic System for Commercial Buildings: Phase 2 Project Report (1998)",
+        "Development and Testing of an Information Monitoring and Diagnostics System for Large Commercial Buildings (1998)",
+        "How Low Can You Go? Low Pressure Drop Laboratory Design (2002)",
+        "Laboratory Low-Pressure Drop Design (ASHRAE Journal, 2002)"
+      ],
+      "notable_projects": [
+        {
+          "name": "Ascendas HQ – The Galen",
+          "year": "2011",
+          "achievement": "Won ASEAN Energy Award in Retrofit category",
+          "highlight": "Most energy-efficient chiller plant in Singapore with 0.56 kW/RT efficiency"
+        },
+        {
+          "name": "Grand Hyatt Singapore",
+          "achievement": "Bronze in 2004 Asian Innovation Awards",
+          "investment": "S$2.6 million",
+          "savings": "S$1.1 million annually",
+          "payback": "Just over two years"
+        },
+        {
+          "name": "SingPost Centre",
+          "year": "2008",
+          "achievement": "ASEAN Energy Award",
+          "results": {
+            "energy_saving": "23.17%",
+            "co2_reduction": "2,694 tons annually"
+          }
+        },
+        {
+          "name": "United World College, Tampines Campus",
+          "highlight": "Recognized as one of the best examples of integrated design for genuine energy efficiency"
+        },
+        {
+          "name": "Infosys Green Initiatives",
+          "description": "Collaborated on award-winning green building initiatives"
+        }
+      ]
+    },
+    {
+      "name": "C.P. Sivakumar",
+      "experience": "Over two decades",
+      "expertise": [
+        "Engineering",
+        "Technology",
+        "Academia",
+        "Software Development"
+      ],
+      "background": {
+        "hvac": "15 years at Mata Amritanandamayi Math",
+        "key_role": "Singapore Airlines - Project Management and Solution Architecture"
+      },
+      "education": [
+        {
+          "degree": "Master of Computing",
+          "institution": "National University of Singapore"
+        },
+        {
+          "degree": "Master of Science in Engineering",
+          "institution": "National University of Singapore"
+        },
+        {
+          "degree": "Master of Engineering",
+          "institution": "Anna University, India"
+        }
+      ]
+    },
+    {
+      "name": "Rangasamy Vijayaraghavan",
+      "experience": "Nearly five decades in MEP projects",
+      "education": {
+        "institution": "Indian Institute of Technology (IIT) Madras",
+        "degrees": ["BSc", "BTech"]
+      },
+      "career_highlights": [
+        {
+          "company": "Blue Star India",
+          "role": "Service Engineer",
+          "focus": "Air conditioning projects in Tamil Nadu"
+        },
+        {
+          "region": "UAE and Oman",
+          "projects": [
+            "Abu Dhabi Defense Force facilities",
+            "Royal palace in Salalah, Oman"
+          ]
+        },
+        {
+          "region": "Singapore",
+          "projects": [
+            "DBS Tower 2",
+            "Mt. Alvernia Hospital",
+            "Temasek Polytechnic",
+            "HP Singapore clean room facilities"
+          ]
+        },
+        {
+          "region": "Indonesia",
+          "projects": [
+            "Casa Blanca",
+            "Gandaria"
+          ]
+        }
+      ]
+    }
+  ]
+} 
