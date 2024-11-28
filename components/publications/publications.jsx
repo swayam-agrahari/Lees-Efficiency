@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image"
-import data from "@/components/json/publications.json"
+import data from "../../components/json/publications.json"
 import { useState } from "react"
 import Link from "next/link"
 import CornerArrow from "../svg/corner-arrow"

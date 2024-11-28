@@ -1,14 +1,14 @@
 "use client"
 import LandingPage from "../../components/LandingPage";
-import Expertise from "@/components/expertise/expertise";
-import AboutUs from "@/components/about/about_us.jsx"
-import Academy from "@/components/academy/academy";
+import Expertise from "../../components/expertise/expertise";
+import AboutUs from "../../components/about/about_us.jsx"
+import Academy from "../../components/academy/academy";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Lander from ".";
-import ContactUsForm from "@/components/contact-us/contact_us_form";
-import ContactUsFooter from "@/components/contact-us/contact_us_footer";
-import Publications from "@/components/publications/publications";
+import ContactUsForm from "../../components/contact-us/contact_us_form";
+import ContactUsFooter from "../../components/contact-us/contact_us_footer";
+import Publications from "../../components/publications/publications";
 
 export default function Home() {
   const ref = useRef(null);

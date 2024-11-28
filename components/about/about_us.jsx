@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Arrow from "@/components/svg/upward-arror";
+import Arrow from "../../components/svg/upward-arror";
 import { useRouter } from 'next/navigation';
 
 export default function AboutUs() {
@@ -41,7 +41,7 @@ export default function AboutUs() {
                     </p>
                     <motion.button
                         onClick={handleReadMore}
-                        className="relative group border border-gray-800 text-gray-800 [@media(max-width:320px)]:px-3 [@media(max-width:320px)]:py-1 px-6 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-white hover:bg-gray-800"
+                        className="relative group border border-gray-800 text-gray-800 [../../media(max-width:320px)]:px-3 [../../media(max-width:320px)]:py-1 px-6 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-white hover:bg-gray-800"
                         whileTap={{ scaleX: 1.5 }}
                     >
                         <span className="relative group-hover:text-white text-lg">Read More</span>
