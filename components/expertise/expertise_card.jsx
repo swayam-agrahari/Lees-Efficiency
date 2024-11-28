@@ -1,11 +1,21 @@
 import Link from "next/link"
 import CornerArrow from "../svg/corner-arrow"
 import { useState } from "react"
+import Image from "next/image";
 
 export default function ExportiseCard({data, open, setOpen, setBrief}){
     return(
-        <div className="group min-h-[30vw] max-sm:min-h-[100vw] max-md:min-h-[90vw] flex-1 flex flex-col bg-black pb-[1vw] text-white hover:bg-white hover:text-black transition duration-500 ease-out max-md:pb-[5vw]">
-            <div className={`bg-white flex-[2] mb-[1vw]`}>Image</div>
+        <div className="group min-h-[30vw] flex-1 flex flex-col bg-black pb-[1vw] text-white hover:bg-white hover:text-black transition duration-500 ease-out">
+            <div className="rounded-sm overflow-hidden">
+                <Image
+                    src={data.image}
+                    width={300}
+                    height={300}
+                    className="w-full h-[40vh] sm:h-[35vh] object-cover"
+                    alt="Logo"
+                    unoptimized
+                />
+            </div>
             <div className="flex-[3] flex flex-col tracking-tighter max-md:group-hover:[&>*]:pl-[5vw] group-hover:[&>*]:pl-[1vw] [&>*]:transition-all [&>*]:duration-500 [&>*]:ease-out" id="content">
                 <p className="transition duration-1000 ease-out max-md:text-[3vw] max-sm:text-[5vw] text-[1vw] font-light">{data.dest}</p>
                 <p className="transition duration-1000 ease-out max-md:text-[4vw] max-sm:text-[6vw] text-[1.5vw] font-semibold group-hover:underline decoration-2">{data.title}</p>
@@ -30,5 +40,5 @@ export default function ExportiseCard({data, open, setOpen, setBrief}){
                 </div>
             </div>
         </div>
-    )
+    );
 }
