@@ -11,9 +11,9 @@ export default function Lander() {
     };
 
     return (
-        <div className="min-w-screen  relative overflow-x-hidden">
+        <div className="w-full  relative overflow-x-hidden">
             <motion.div
-                className="min-w-full min-h-[102vh]"
+                className="w-full min-h-[102vh]"
                 style={{
                     backgroundPosition: "bottom",
                     backgroundSize: "cover"
@@ -21,10 +21,10 @@ export default function Lander() {
                 transition={{ ease: "linear", duration: 1.5 }}
             >
                 <Image
-                    src="/assets/bgresize.png"
+                    src="/assets/bg.png"
                     alt="background"
                     fill
-                    className="min-w-screen min-h-[102vh] scale-x-[-1]"
+                    className="w-full min-h-[102vh] scale-x-[-1]"
                     unoptimized
                 ></Image>
             </motion.div>
