@@ -12,7 +12,7 @@ export default function AboutUs() {
 
     return (
         <div
-            className="mt-8 bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center pb-16 pt-8 px-6 lg:px-24"
+            className="w-full h-full bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center py-16 px-6 lg:px-24 "
             id="about-us"
         >
             <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mt:[15vw]">
@@ -23,9 +23,8 @@ export default function AboutUs() {
                     transition={{ duration: 1 }}
                     className="space-y-6 lg:space-y-8"
                 >
-                    <h2 className="text-[4vw] text-black w-full max-w-[90vw] mb-[3vw] flex">
-                        About Us
-                    </h2>
+                    
+                    <p className="text-3xl font-medium [@media(max-width:320px)]:text-3xl sm:text-3xl  md:text-7xl    text-black w-full max-w-[90vw] mb-[3vw] mt-[5vw] text-start "> About Us</p>
                     <p className="text-lg lg:text-xl leading-relaxed text-gray-700">
                         LEES Energy Solutions Pte Ltd specializes in state-of-the-art technologies, innovative design, financial analysis, and comprehensive project
                         management for energy-efficient building solutions.
