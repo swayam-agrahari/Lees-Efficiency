@@ -19,9 +19,10 @@ export default function Home() {
   });
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]); // Parallax speed adjusted here
+  const aboutUsY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]); // Moves it up
 
   return (
-    <div ref={ref} className="min-w-screen min-h-full bg-black text-black ">
+    <div ref={ref} className="min-w-screen min-h-full bg-black text-black">
       {/* Parallax background */}
       <motion.div
         className="min-h-[102vh] "
@@ -32,7 +33,12 @@ export default function Home() {
       </motion.div>
 
       <div className=" z-20">
-        <AboutUs />
+        {/* Apply motion to AboutUs component */}
+        <motion.div
+          style={{ y: aboutUsY }}
+        >
+          <AboutUs />
+        </motion.div>
       </div>
       <Publications/>
       <Expertise />
