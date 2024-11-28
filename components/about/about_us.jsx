@@ -12,7 +12,7 @@ export default function AboutUs() {
 
     return (
         <div
-            className="bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center pb-16 pt-8 px-6 lg:px-24"
+            className="mt-8 bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center pb-16 pt-8 px-6 lg:px-24"
             id="about-us"
         >
             <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mt:[15vw]">

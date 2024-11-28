@@ -11,7 +11,7 @@ export default function Navbar({ open, hero, darkSection }) {
     const links = [
         { name: "Home", link: "/" },
         { name: "About Us", link: "/#about-us" },
-        { name: "Expertise", link: "/#services" },
+        { name: "Expertise", link: "/#expertise" },
         { name: "Less Academy", link: "/#portfolio" },
         { name: "Awards", link: "/#contact" },
     ]

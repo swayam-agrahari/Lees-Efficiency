@@ -9,7 +9,7 @@ export default function AboutPage() {
     }, []);
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900">
+        <div className="min-h-screen bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 border">
             {/* Hero Section */}
             <section className="py-20 px-6 lg:px-24">
                 <div className="max-w-6xl mx-auto">
