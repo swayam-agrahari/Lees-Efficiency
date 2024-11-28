@@ -1,8 +1,8 @@
 export default function ContactUsForm() {
     return (
-        <section className="bg-black body-font relative font-['Poppins']">
-            <div className="container mx-auto px-[4vw] py-[4vw]">
-                <h1 className="text-white text-[2.5rem] max-md:text-[8vw] mb-[4vw] font-['Poppins']">Contact Us</h1>
+        <section className="bg-black body-font relative min-w-[95vw] flex">
+            <div className="mx-auto px-[4vw] w-full flex-1">
+                <p className="text-white text-[4vw] max-md:text-[8vw] mb-[4vw]">Contact Us</p>
                 
                 <div className="flex sm:flex-nowrap flex-wrap">
                     {/* Map Section */}
@@ -44,49 +44,27 @@ export default function ContactUsForm() {
                     </div>
 
                     {/* Contact Form Section */}
-                    <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full p-8 rounded-lg">
-                        <h2 className="text-black text-xl mb-1 font-medium">CONTACT US</h2>
-                        <p className="leading-relaxed mb-5 text-gray-600">Send us a message and we&apos;ll get back to you as soon as possible.</p>
-                        
-                        <form className="space-y-6">
-                            <div className="relative">
-                                <label htmlFor="name" className="leading-7 text-sm text-black font-medium">Name</label>
-                                <input 
-                                    type="text" 
-                                    id="name" 
-                                    name="name" 
-                                    required
-                                    className="w-full bg-white rounded border border-black focus:border-black focus:ring-2 focus:ring-gray-200 text-base outline-none text-black py-2 px-4 leading-8 transition-colors duration-200 ease-in-out"
-                                />
+                    <div className="bg-white w-[35vw] max-md:w-[95vw] flex flex-col items-center justify-center p-[2vw] max-md:p-[2.5vw] rounded-[.5vw] max-md:rounded-[2vw]">
+                        <p className="text-[1.5vw] mb-[1vw] max-md:text-[5vw]">CONTACT US</p>
+                        <form className="text-[1vw] max-md:text-[3vw] flex flex-col w-full gap-y-[1vw] max-md:gap-y-[4vw]">
+                            <div className="flex w-full justify-center gap-x-[1vw] tracking-tighter max-md:flex-col max-md:gap-y-[2vw] flex-col">
+                                <div className="flex-1 flex-col flex gap-y-[.2vw]">
+                                    <label htmlFor="name">NAME:</label>
+                                    <input type="text" id="name" name="name" className="border border-solid border-black rounded-[.2vw] max-md:rounded-[1vw] w-full min-h-[2vw]" required />
+                                </div>
+                                
+                                <div className="flex-1 flex-col flex gap-y-[.2vw]">
+                                    <label htmlFor="email">EMAIL:</label>
+                                    <input type="email" id="email" name="email" className="border border-solid border-black rounded-[.2vw] max-md:rounded-[1vw] w-full min-h-[2vw]" required />
+                                </div>
                             </div>
-
-                            <div className="relative">
-                                <label htmlFor="email" className="leading-7 text-sm text-black font-medium">Email</label>
-                                <input 
-                                    type="email" 
-                                    id="email" 
-                                    name="email" 
-                                    required
-                                    className="w-full bg-white rounded border border-black focus:border-black focus:ring-2 focus:ring-gray-200 text-base outline-none text-black py-2 px-4 leading-8 transition-colors duration-200 ease-in-out"
-                                />
+                            
+                            <div className="flex-1 flex flex-col gap-y-[.2vw]">
+                                <label htmlFor="message">MESSAGE:</label>
+                                <textarea id="message" name="message" rows="4" className="border border-solid border-black rounded-[.2vw] max-md:rounded-[1vw] w-full" required></textarea>
                             </div>
-
-                            <div className="relative">
-                                <label htmlFor="message" className="leading-7 text-sm text-black font-medium">Message</label>
-                                <textarea 
-                                    id="message" 
-                                    name="message" 
-                                    required
-                                    className="w-full bg-white rounded border border-black focus:border-black focus:ring-2 focus:ring-gray-200 h-32 text-base outline-none text-black py-2 px-4 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                                ></textarea>
-                            </div>
-
-                            <button 
-                                type="submit" 
-                                className="w-full text-white bg-black border-2 border-black py-3 px-6 focus:outline-none hover:bg-white hover:text-black transition-colors duration-300 rounded-full text-lg"
-                            >
-                                SUBMIT
-                            </button>
+                            
+                            <button type="submit" className="bg-black text-white rounded-full py-[.2vw] max-md:py-[1vw] hover:bg-white hover:text-black transition duration-500 ease-out border border-black border-solid">SUBMIT</button>
                         </form>
                     </div>
                 </div>
