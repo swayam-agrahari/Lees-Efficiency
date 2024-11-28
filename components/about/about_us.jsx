@@ -1,8 +1,15 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Arrow from "@/components/svg/upward-arror";
+import { useRouter } from 'next/navigation';
 
 export default function AboutUs() {
+    const router = useRouter();
+
+    const handleReadMore = () => {
+        router.push('/about');
+    };
+
     return (
         <div
             className="bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center py-16 px-6 lg:px-24 "
@@ -33,12 +40,13 @@ export default function AboutUs() {
                         </span>
                     </p>
                     <motion.button
-                                className="relative group border  border-gray-800 text-gray-800 [@media(max-width:320px)]:px-3  [@media(max-width:320px)]:py-1  px-6 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-white hover:bg-gray-800  "
-                                whileTap={{ scaleX: 1.5 }}
-                            >
-                                <span className="relative group-hover:text-white text-lg">Read More</span>
-                                <span className="z-10"><Arrow /></span>
-                            </motion.button>
+                        onClick={handleReadMore}
+                        className="relative group border border-gray-800 text-gray-800 [@media(max-width:320px)]:px-3 [@media(max-width:320px)]:py-1 px-6 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-white hover:bg-gray-800"
+                        whileTap={{ scaleX: 1.5 }}
+                    >
+                        <span className="relative group-hover:text-white text-lg">Read More</span>
+                        <span className="z-10"><Arrow /></span>
+                    </motion.button>
                 </motion.div>
 
                 {/* Right Section: Zig-Zag Images */}
