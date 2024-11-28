@@ -10,10 +10,10 @@ export default function Navbar({ open, hero, darkSection }) {
 
     const links = [
         { name: "Home", link: "/" },
-        { name: "About Us", link: "/about" },
-        { name: "Expertise", link: "/services" },
-        { name: "Less Academy", link: "/portfolio" },
-        { name: "Awards", link: "/contact" },
+        { name: "About Us", link: "/#about-us" },
+        { name: "Expertise", link: "/#services" },
+        { name: "Less Academy", link: "/#portfolio" },
+        { name: "Awards", link: "/#contact" },
     ]
 
     const [openMenu, setOpenMenu] = useState(false);
