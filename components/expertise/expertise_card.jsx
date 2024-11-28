@@ -1,6 +1,7 @@
 import Link from "next/link"
 import CornerArrow from "../svg/corner-arrow"
 import { useState } from "react"
+import Image from "next/image";
 
 export default function ExportiseCard({data, open, setOpen, setBrief}){
     return(
@@ -30,5 +31,5 @@ export default function ExportiseCard({data, open, setOpen, setBrief}){
                 </div>
             </div>
         </div>
-    )
+    );
 }
