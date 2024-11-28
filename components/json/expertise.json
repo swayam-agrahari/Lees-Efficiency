@@ -4,8 +4,9 @@
     "title": "The Galen, HQ of Ascendas",
     "person": "Bruce Lee",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
-    "imagebrief":"Galen chiller plant room- uncluttered, minimization of sharp bends, long straight lines where possible. Notice the pumps are positioned to optimize pipe layout, not the other way around.",
-    "description":"GREEN MARK PLATINUM (2010)",
+    "image": "/assets/expertise/1.jpg",
+    "imagebrief": "Galen chiller plant room- uncluttered, minimization of sharp bends, long straight lines where possible. Notice the pumps are positioned to optimize pipe layout, not the other way around.",
+    "description": "GREEN MARK PLATINUM (2010)",
     "highlights": [
       "Chiller plant efficiency of 0.563kW/RT, one of the most energy-efficient chiller plants in Singapore",
       "Energy saving of 58%, translating to S$1.1mil a year saving in utilities cost and life cycle cost",
@@ -21,6 +22,7 @@
     "title": "Grand Hyatt In Singapore",
     "person": "Bruce Lee",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
+    "image": "/assets/expertise/2.webp",
     "highlights": [
       "System efficiency better than 0.58kw/ton",
       "Guaranteed savings of S$1,000,000 pa",
@@ -39,12 +41,42 @@
     },
     "description": "The project included supply, install, consultancy, and management of air-conditioning equipment valued at S$3,200,000. Taking Singapore tax incentives into consideration, the net investment reduced to S$2,400,000. Energy savings achieved close to S$1,000,000 per annum. With accelerated depreciation allowance and tax incentive, this translates to a payback period of 2 years and 5 months or a return on investment of 42%.",
     "table": [
-      ["Parameter", "Pre-retrofit", "Post-retrofit", "Improvement"],
-      ["Chiller efficiency", 0.75, 0.485, "35.33%"],
-      ["Cooling tower efficiency", 0.03, 0.025, "16.67%"],
-      ["Chilled water pump efficiency", 0.153, 0.035, "77.12%"],
-      ["Condenser water pump efficiency", 0.116, 0.035, "69.83%"],
-      ["System efficiency", 1.049, 0.58, "44.71%"]
+      [
+        "Parameter",
+        "Pre-retrofit",
+        "Post-retrofit",
+        "Improvement"
+      ],
+      [
+        "Chiller efficiency",
+        0.75,
+        0.485,
+        "35.33%"
+      ],
+      [
+        "Cooling tower efficiency",
+        0.03,
+        0.025,
+        "16.67%"
+      ],
+      [
+        "Chilled water pump efficiency",
+        0.153,
+        0.035,
+        "77.12%"
+      ],
+      [
+        "Condenser water pump efficiency",
+        0.116,
+        0.035,
+        "69.83%"
+      ],
+      [
+        "System efficiency",
+        1.049,
+        0.58,
+        "44.71%"
+      ]
     ],
     "other_benefits": [
       "Improved comfort",
@@ -57,23 +89,26 @@
     "dest": "SingPost Centre",
     "title": "SingPost Centre",
     "person": "Bruce Lee",
-    "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake"
+    "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
+    "image": "/assets/expertise/3.png"
   },
   {
     "dest": "Republic Plaza",
     "title": "Republic Plaza",
     "person": "Bruce Lee",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
-    "subtitle":"Infrastructure Enhancements At Republic Plaza To Result In Energy Savings Of S$870,000 Annually",
+    "subtitle": "Infrastructure Enhancements At Republic Plaza To Result In Energy Savings Of S$870,000 Annually",
     "author": "Trane High Performance Buildings December 27, 2012",
-    "description":"Infrastructure Upgrades At The Republic Plaza Building, One Of Singapore's Tallest Skyscrapers, Have Made It One Of The Most Efficient Buildings In Singapore. The Anticipated Energy Savings Are Estimated At Four Million Kilowatt-Hour Of Energy, Or An Annual Savings Of S$870,000. This Is Equivalent To Powering 1,300 Four-Room Apartments Annually. The 66-Story, 280-Meter High Republic Plaza Is A Grade A Office Building Located At Raffles Place In The Heart Of Singapore's Central Business District. Developer And Building Owner City Developments Limited (CDL) Completed The Improvements To Enhance The Building's Energy Efficiency And To Provide A More Comfortable And Productive Working Environment For Building Tenants. CDL Has A Strong Commitment To Sustainability Through Its Property Portfolio. Annual Electricity Savings From CDL Sustainable Buildings Are Estimated At $$19.7 Million For The 37 Buildings Which Received Green Mark Certification Between 2008 And 2011. The High Performance Buildings Journey High Performance Buildings Take A Whole-Building Approach To Performance While Creating Spaces That Are Reliable, Safe, Healthy, Comfortable And Efficient. Trane, A Leading Global Provider Of Indoor Comfort Systems And Solutions And A Brand Of Ingersoll Rand, Worked Closely With CDL Leaders For A Plan To Maximize The Efficiency Of Republic Plaza. High Performance Buildings Meet Specific Standards For Energy And Water Consumption, System Reliability And Uptime, Environmental Compliance And Occupant Comfort. All Standards Are Set To Deliver Established Outcomes That Help Building Owners And Occupants Achieve Their Business Missions."
+    "image": "/assets/expertise/4.jpeg",
+    "description": "Infrastructure Upgrades At The Republic Plaza Building, One Of Singapore's Tallest Skyscrapers, Have Made It One Of The Most Efficient Buildings In Singapore. The Anticipated Energy Savings Are Estimated At Four Million Kilowatt-Hour Of Energy, Or An Annual Savings Of S$870,000. This Is Equivalent To Powering 1,300 Four-Room Apartments Annually. The 66-Story, 280-Meter High Republic Plaza Is A Grade A Office Building Located At Raffles Place In The Heart Of Singapore's Central Business District. Developer And Building Owner City Developments Limited (CDL) Completed The Improvements To Enhance The Building's Energy Efficiency And To Provide A More Comfortable And Productive Working Environment For Building Tenants. CDL Has A Strong Commitment To Sustainability Through Its Property Portfolio. Annual Electricity Savings From CDL Sustainable Buildings Are Estimated At $$19.7 Million For The 37 Buildings Which Received Green Mark Certification Between 2008 And 2011. The High Performance Buildings Journey High Performance Buildings Take A Whole-Building Approach To Performance While Creating Spaces That Are Reliable, Safe, Healthy, Comfortable And Efficient. Trane, A Leading Global Provider Of Indoor Comfort Systems And Solutions And A Brand Of Ingersoll Rand, Worked Closely With CDL Leaders For A Plan To Maximize The Efficiency Of Republic Plaza. High Performance Buildings Meet Specific Standards For Energy And Water Consumption, System Reliability And Uptime, Environmental Compliance And Occupant Comfort. All Standards Are Set To Deliver Established Outcomes That Help Building Owners And Occupants Achieve Their Business Missions."
   },
   {
     "dest": "Tampines Campus",
     "title": "United World College",
     "person": "Bruce Lee",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
-    "highlights":[
+    "image": "/assets/expertise/5.jpg",
+    "highlights": [
       "High chiller plant efficiency",
       "Energy saving of 42.68%, 30.6% from chiller plants and 33.9% from lighting",
       "Saving of more thana S$4mil over 10 years"
@@ -83,6 +118,7 @@
     "dest": "MEWR Retrofit",
     "title": "MEWR Retrofit",
     "person": "Bruce Lee",
-    "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake"
+    "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
+    "image": "/assets/expertise/6.JPG"
   }
 ]
