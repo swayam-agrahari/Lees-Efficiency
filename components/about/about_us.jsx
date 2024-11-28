@@ -53,11 +53,11 @@ export default function AboutUs() {
                 <div className="relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 items-center">
                     {/* Top Image */}
                     <motion.div
-                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[-5deg]"
+                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[3deg] lg:translate-x-[5vw]"
                     >
                         <Image
                             alt="Top Image"
-                            src="/assets/lees.png"
+                            src="https://cdn.discordapp.com/attachments/1309870103944499293/1311736430527250534/image.jpg?ex=6749f13f&is=67489fbf&hm=5b5de61045566b8adbbe9a374f1ca7f55d37bb4ce65177c8c8788ec0520b5e85&"
                             fill
                             className="object-center"
                             unoptimized
@@ -66,7 +66,7 @@ export default function AboutUs() {
 
                     {/* Middle Image */}
                     <motion.div
-                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[3deg] lg:translate-x-40"
+                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0  lg:translate-x-[15vw]"
                     >
                         <Image
                             alt="Middle Image"
@@ -79,11 +79,11 @@ export default function AboutUs() {
 
                     {/* Bottom Image */}
                     <motion.div
-                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[-5deg]"
+                        className="relative w-full lg:w-80 h-96 md:h-60 shadow-lg rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[-3deg] lg:translate-x-[5vw]"
                     >
                         <Image
                             alt="Bottom Image"
-                            src="/assets/lees.png"
+                            src="https://cdn.discordapp.com/attachments/1309870103944499293/1311736974721286144/image.jpg?ex=6749f1c1&is=6748a041&hm=4d23b2913383d092b511ee08d8e7c2bb040289c0b17754fafcf15176c7676628&"
                             fill
                             className="object-center"
                             unoptimized
