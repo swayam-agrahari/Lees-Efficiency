@@ -12,7 +12,7 @@ export default function AboutUs() {
 
     return (
         <div
-            className="bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center py-16 px-6 lg:px-24 "
+            className="bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 min-h-full flex items-center pb-16 pt-8 px-6 lg:px-24 "
             id="about-us"
         >
             <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mt:[15vw]">
@@ -23,7 +23,7 @@ export default function AboutUs() {
                     transition={{ duration: 1 }}
                     className="space-y-6 lg:space-y-8"
                 >
-                    <h2 className="text-[2.2vw] text-black w-full max-w-[90vw] mb-[3vw] mt-[4vw] flex">
+                    <h2 className="text-[2.2vw] text-black w-full max-w-[90vw] mb-[3vw] flex">
                         About Us
                     </h2>
                     <p className="text-lg lg:text-xl leading-relaxed text-gray-700">
@@ -53,7 +53,7 @@ export default function AboutUs() {
                 <div className="relative flex flex-col gap-6 items-center">
                     {/* Top Image */}
                     <motion.div
-                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform rotate-[-5deg]"
+                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform lg:rotate-[-5deg] lg:translate-x-0"
                     >
                         <Image
                             alt="Top Image"
@@ -66,7 +66,7 @@ export default function AboutUs() {
 
                     {/* Middle Image */}
                     <motion.div
-                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform rotate-[3deg] translate-x-6 lg:translate-x-[15vw]"
+                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform lg:rotate-[3deg] lg:translate-x-[15vw]"
                     >
                         <Image
                             alt="Middle Image"
@@ -79,7 +79,7 @@ export default function AboutUs() {
 
                     {/* Bottom Image */}
                     <motion.div
-                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform rotate-[-5deg]"
+                        className="relative w-64 h-48 lg:w-80 lg:h-60 shadow-lg rounded-lg overflow-hidden transform lg:rotate-[-5deg] lg:translate-x-0"
                     >
                         <Image
                             alt="Bottom Image"
