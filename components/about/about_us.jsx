@@ -23,7 +23,7 @@ export default function AboutUs() {
                     transition={{ duration: 1 }}
                     className="space-y-6 lg:space-y-8"
                 >
-                    <h2 className="text-[2.2vw] text-black w-full max-w-[90vw] mb-[3vw] flex">
+                    <h2 className="text-[4vw] text-black w-full max-w-[90vw] mb-[3vw] flex">
                         About Us
                     </h2>
                     <p className="text-lg lg:text-xl leading-relaxed text-gray-700">
