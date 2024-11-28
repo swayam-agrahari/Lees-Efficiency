@@ -1,14 +1,14 @@
 "use client"
 import LandingPage from "../../components/LandingPage";
-import Expertise from "@/components/expertise/expertise";
-import AboutUs from "@/components/about/about_us.jsx"
-import Academy from "@/components/academy/academy";
+import Expertise from "../../components/expertise/expertise";
+import AboutUs from "../../components/about/about_us.jsx"
+import Academy from "../../components/academy/academy";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Lander from ".";
-import ContactUsForm from "@/components/contact-us/contact_us_form";
-import ContactUsFooter from "@/components/contact-us/contact_us_footer";
-import Publications from "@/components/publications/publications";
+import ContactUsForm from "../../components/contact-us/contact_us_form";
+import ContactUsFooter from "../../components/contact-us/contact_us_footer";
+import Publications from "../../components/publications/publications";
 
 export default function Home() {
   const ref = useRef(null);
@@ -19,9 +19,10 @@ export default function Home() {
   });
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]); // Parallax speed adjusted here
+  const aboutUsY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]); // Moves it up
 
   return (
-    <div ref={ref} className="min-w-screen min-h-full bg-black text-black ">
+    <div ref={ref} className="min-w-screen min-h-full bg-black text-black">
       {/* Parallax background */}
       <motion.div
         className="min-h-[102vh] "
@@ -32,7 +33,12 @@ export default function Home() {
       </motion.div>
 
       <div className=" z-20">
-        <AboutUs />
+        {/* Apply motion to AboutUs component */}
+        <motion.div
+          style={{ y: aboutUsY }}
+        >
+          <AboutUs />
+        </motion.div>
       </div>
       <Publications/>
       <Expertise />

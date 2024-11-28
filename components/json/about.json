@@ -1,0 +1,48 @@
+{
+  "title": "About Us",
+  "content": "LEES Energy Solutions Pte Ltd specializes in state-of-the-art technologies, innovative design, financial analysis, and comprehensive project management for energy-efficient building solutions. Guided by an integrated building lifecycle approach, we support sustainable building operations through every phase: energy audits, design, construction, commissioning, measurement and verification, and ongoing operations and maintenance.",
+  "founder": {
+    "name": "Lee Eng Lock",
+    "description": "Our Energy Team is led by our founder, Lee Eng Lock, a recognized energy efficiency guru and one of the world’s foremost advocates and innovators in energy conservation, with over 30 years of experience. Lee Eng Lock, is a recognized leader in energy efficiency with extensive experience in research and development. He collaborated with the Lawrence Berkeley National Laboratory's Center for Building Science on several pioneering projects, including:",
+    "research_projects": [
+      "Performance Assessment and Adoption Processes of an Information Monitoring and Diagnostic System Prototype (CEC/CIEE, 1999)",
+      "Early Results and Field Tests of an Information Monitoring and Diagnostic System for Commercial Buildings: Phase 2 Project Report (1998)",
+      "Development and Testing of an Information Monitoring and Diagnostics System for Large Commercial Buildings (1998 ACEEE Summer Study on Energy Efficiency in Buildings, Pacific Grove, CA)",
+      "How Low Can You Go? Low Pressure Drop Laboratory Design (2002)",
+      "Laboratory Low-Pressure Drop Design (ASHRAE Journal, 2002)"
+    ],
+    "notable_projects": [
+      {
+        "name": "Ascendas HQ – The Galen",
+        "description": "In 2011, Ascendas' regional headquarters, The Galen, located at Singapore Science Park, won the ASEAN Energy Award in the Retrofit category for Energy Efficiency. Achieving an outstanding efficiency of 0.56 kW/RT, The Galen boasts the most energy-efficient chiller plant in Singapore."
+      },
+      {
+        "name": "Grand Hyatt Singapore",
+        "description": "Through the Green Energy Management (GEM) project, which won a Bronze in the 2004 Asian Innovation Awards, the hotel invested S$2.6 million to upgrade its heating, ventilating, and air-conditioning systems. This redesign resulted in annual savings of over S$1.1 million, achieving payback within just over two years. The project significantly reduced electricity and water use, minimizing the hotel's carbon footprint."
+      },
+      {
+        "name": "SingPost Centre",
+        "description": "This project won an ASEAN Energy Award in 2008. The main objective was to reduce energy consumption by 20% without compromising comfort and service quality for tenants. Focused on optimizing the central chilled water plant room, the initiative achieved a 23.17% energy saving year-on-year, cutting an estimated 2,694 tons of CO₂ emissions annually. SingPost also introduced an educational program to foster energy conservation, involving a dedicated Energy Conservation Committee, energy-saving talks, KPIs, and competitions between branches."
+      },
+      {
+        "name": "United World College, Tampines Campus",
+        "description": "This campus, touted as one of the best examples of integrated design for genuine energy efficiency, demonstrates how real-time monitoring and proactive maintenance can achieve exceptional results. Notably, energy expert Amory Lovins acknowledged learning ultra-efficient HVAC principles from Lee Eng Lock, as mentioned in his books."
+      },
+      {
+        "name": "Infosys Green Initiatives",
+        "description": "LEES Energy Solutions also collaborated with Infosys on its award-winning green building initiatives. Infosys has been recognized globally for its commitment to sustainability and green architecture."
+      }
+    ],
+    "recognition": "Recognized as a Champion of Energy Efficiency by the American Council for an Energy-Efficient Economy (ACEEE) and one of the 100 Global Sustainability Leaders, Lee Eng Lock has brought a wealth of expertise to LEES Energy Solutions. Our commitment to data integrity, accuracy, and transparency drives our mission to help clients achieve measurable energy savings and promote sustainable practices that benefit both the environment and the bottom line."
+  },
+  "team_members": [
+    {
+      "name": "C.P. Sivakumar",
+      "description": "C.P. Sivakumar brings a wealth of expertise in engineering and technology, with over two decades of experience spanning academia, engineering, and software development. He has been an integral part of HVAC activities at Mata Amritanandamayi Math for around 15 years. His background includes significant roles in mechanical engineering, specializing in HVAC systems, as well as software development. Sivakumar has led and contributed to critical projects for organizations like Singapore Airlines, where he managed projects and architected solutions to enhance their data warehousing and departure control systems. His educational qualifications are equally impressive, with multiple advanced degrees, including a Master of Computing and a Master of Science in Engineering from the National University of Singapore, as well as a Master of Engineering from Anna University in India. In addition, he holds certifications such as the Sun Certified Java Programmer. Sivakumar's vast experience and commitment to innovation make him a valuable asset to our team, where he continues to drive excellence and inspire progress."
+    },
+    {
+      "name": "Rangasamy Vijayaraghavan",
+      "description": "Rangasamy Vijayaraghavan is a seasoned engineering professional with a distinguished career spanning nearly five decades in mechanical, electrical, and plumbing (MEP) projects. His extensive expertise includes design and implementation of complex HVAC systems, primarily across India, the Middle East, Singapore, and Indonesia. An alumnus of the prestigious Indian Institute of Technology (IIT) Madras, Vijayaraghavan holds a BSc and BTech and has contributed to high-profile projects worldwide. In his early career, he worked as a service engineer for Blue Star India, focusing on air conditioning projects in Tamil Nadu. His international experience began in the UAE and Oman, where he contributed to various defense and government projects, including the Abu Dhabi Defense Force facilities and the royal palace in Salalah, Oman. Later, in Singapore and Indonesia, Vijayaraghavan was involved in notable projects such as DBS Tower 2, Mt. Alvernia Hospital, Temasek Polytechnic, and clean room facilities for HP Singapore. He has also led MEP designs for major mixed-use developments in Jakarta, such as Casa Blanca and Gandaria."
+    }
+  ]
+}
