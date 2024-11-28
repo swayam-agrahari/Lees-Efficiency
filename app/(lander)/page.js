@@ -7,7 +7,7 @@ import Publications from "@/components/publications/publications";
 
 export default function Home() {
   return (
-    <div className="w-full h-full text-black min-h-[300vh] flex flex-col bg-black">
+    <div className="w-full h-full text-black flex flex-col bg-black">
       {/* <LandingPage/> */}
       <Publications/>
       <Expertise/>
