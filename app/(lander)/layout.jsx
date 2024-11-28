@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "@/components/navbar/navbar";
+import Navbar from "../../components/navbar/navbar";
 import { useEffect, useState, useRef } from "react";
 import { Poppins } from "next/font/google"
 

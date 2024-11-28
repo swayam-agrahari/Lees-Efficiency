@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import ExportiseCard from "./expertise_card";
-import expertise_data from "@/components/json/expertise.json";
+import expertise_data from "../../components/json/expertise.json";
 import ExpertiseBrief from "./expertise_brief";
 
 export default function Expertise() {
