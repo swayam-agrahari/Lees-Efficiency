@@ -13,7 +13,7 @@ export default function ContactUsFooter(){
             <div className="min-h-[12vw] max-md:min-h-[50vw] flex max-md:flex-col-reverse items-center">
                 <div className="flex-1 w-full">
                     <p className="text-[2.2vw] max-md:text-[7vw] tracking-tight -mb-[1vw]">Get in touch</p>
-                    <p className="text-[2.2vw] max-md:text-[6vw] underline text-[#737373]">leelock@leesenergysolutions.com</p>
+                    <p className="text-[2.2vw] max-md:text-[5.5vw] underline text-[#737373]">leelock@leesenergysolutions.com</p>
                 </div>
                 <Image src={'/assets/lee-logo-no-bg.png'} width={1} height={1} alt="lee" className="h-[7vw] w-auto max-md:h-[15vw] max-md:mb-[5vw]" unoptimized/>
             </div>
@@ -30,10 +30,10 @@ export default function ContactUsFooter(){
                 <div className="flex flex-1">
                     <div className="flex-1">
                         <p className="text-[1.2vw] max-md:text-[3.5vw] max-md:mb-[1vw] text-[#737373] font-semibold">Quick Links</p>
-                        <div className="flex flex-col flex-1 gap-y-[.3vw] max-md:gap-y-[3vw] text-[1.1vw] max-md:text-[3.5vw] font-extralight mr-[2vw]">
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] font-[100] hover:bg-white group rounded-full hover:text-black">
+                        <div className="flex flex-col flex-1 gap-y-[.3vw] max-md:gap-y-[3vw] text-[1.1vw] max-md:text-[3.5vw] font-light mr-[2vw]">
+                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
                                 <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                <span className="">Home</span>
+                                Home
                             </p>
                             <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
                                 <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
@@ -67,7 +67,7 @@ export default function ContactUsFooter(){
                     </div>
                     <div className="flex-1">
                         <p className="text-[1.2vw] max-md:text-[3.5vw] max-md:mb-[1vw] text-[#737373] font-semibold">Contact Information</p>
-                        <div className="flex flex-col flex-1 gap-y-[.3vw] max-md:gap-y-[3vw] text-[1.1vw] max-md:text-[3.5vw]">
+                        <div className="flex flex-col flex-1 gap-y-[.3vw] max-md:gap-y-[3vw] text-[1.1vw] max-md:text-[3.5vw] font-light">
                             <p>LEES ENERGY SOLUTIONS PTE. LTD.</p>
                             <div className="flex">
                                 <div>

@@ -41,17 +41,19 @@ export default function Home() {
 
         </div>
       </div>
-      <Expertise />
-      <Academy />
-      <div className="w-full bg-white pt-[3vw] max-md:pb-[3vw]">
-        <div className="border-y-[1px] border-solid border-black min-h-[4vw] max-md:min-h-[10vw]"></div>
+      <div className="absolute z-30 flex flex-col w-full">
+        <Expertise />
+        <Academy />
+        <div className="w-full bg-white pt-[3vw] max-md:pb-[3vw]">
+          <div className="border-y-[1px] border-solid border-black min-h-[4vw] max-md:min-h-[10vw]"></div>
+        </div>
+        <Publications />
+        <ContactUsForm />
+        <div className="w-full px-[5vw] mt-[5vw] mb-[1vw]">
+          <div className="border-t-[#737373] border-solid border-t-2 max-w-[90vw]"></div>
+        </div>
+        <ContactUsFooter />
       </div>
-      <Publications />
-      <ContactUsForm />
-      <div className="w-full px-[5vw] mt-[5vw] mb-[1vw]">
-        <div className="border-t-[#737373] border-solid border-t-2 max-w-[90vw]"></div>
-      </div>
-      <ContactUsFooter />
     </div>
   );
 }

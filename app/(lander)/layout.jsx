@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
     <div className={`${poppins.className} w-full bg-transparent`}>
 
       <Navbar open={open} darkSection={darkSection} hero={true} />
-      <div className="w-full md:-mt-[6vw] max-md:-mt-[14vh] -mt-[10vh] ">
+      <div className="w-full">
         {children}
       </div>
       {/* {children} */}

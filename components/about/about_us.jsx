@@ -23,7 +23,7 @@ export default function AboutUs() {
                     transition={{ duration: 1 }}
                     className="space-y-6 lg:space-y-8"
                 >
-                    <p className="text-3xl font-medium sm:text-3xl md:text-7xl text-black w-full max-w-[90vw] mb-[3vw]  text-start">
+                    <p className="text-[4vw] max-md:text-[13vw] text-black w-full max-w-[90vw] mb-[3vw]  text-start">
                         About Us
                     </p>
                     <p className="text-base [@media(max-width:320px)]:text-sm sm:text-xl lg:text-2xl leading-relaxed text-gray-700">

@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function ContactUsForm() {
     return (
         <section className="bg-black body-font relative min-w-[95vw] flex">
@@ -6,7 +8,7 @@ export default function ContactUsForm() {
                 
                 <div className="flex sm:flex-nowrap flex-wrap">
                     {/* Map Section */}
-                    <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative mb-10 sm:mb-0">
+                    <div className="lg:w-2/3 md:w-1/2 max-md:w-full max-md:min-h-[60vh] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10  max-md:p-[2vw] flex items-end justify-start relative mb-10 max-md:mb-[5vw] sm:mb-0">
                         <iframe 
                             width="100%" 
                             height="100%" 
@@ -17,34 +19,34 @@ export default function ContactUsForm() {
                             marginWidth="0" 
                             scrolling="no" 
                             src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20North%20Bridge%20Road%20%2318-03%20High%20Street%20Centre%20Singapore%20179094&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                            style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }}
+                            // style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }}
                         />
-                        <div className="bg-white relative flex flex-wrap py-8 rounded-lg shadow-md">
-                            <div className="lg:w-1/2 px-8">
-                                <h2 className="font-semibold text-black tracking-widest text-xs">ADDRESS</h2>
+                        <div className="bg-white relative flex max-md:flex-col flex-wrap py-8 max-md:py-[1vw] rounded-lg shadow-md text-[.8vw] max-md:text-[3.5vw] px-[1vw] gap-x-[1vw]">
+                            <div className="flex-1">
+                                <h2 className="font-semibold text-black tracking-widest text-[.6vw] max-md:text-[3.5vw]">ADDRESS</h2>
                                 <p className="mt-1 text-gray-900">1 North Bridge Road, #18-03,<br/>High Street Centre,<br/>Singapore 179094.</p>
                             </div>
-                            <div className="lg:w-1/2 px-8 mt-4 lg:mt-0">
-                                <h2 className="font-semibold text-black tracking-widest text-xs">EMAIL</h2>
-                                <a 
+                            <div className="flex-1 mt-4 lg:mt-0">
+                                <h2 className="font-semibold text-black tracking-widest text-[.6vw] max-md:text-[3.5vw]">EMAIL</h2>
+                                <Link 
                                     href="mailto:leelock@leesenergysolutions.com" 
                                     className="text-black hover:text-gray-700 leading-relaxed cursor-pointer"
                                 >
                                     leelock@leesenergysolutions.com
-                                </a>
-                                <h2 className="font-semibold text-black tracking-widest text-xs mt-4">PHONE</h2>
-                                <a 
+                                </Link>
+                                <h2 className="font-semibold text-black tracking-widest text-[.6vw] mt-4 max-md:text-[3.5vw]">PHONE</h2>
+                                <Link 
                                     href="tel:+6583166856"
                                     className="text-black hover:text-gray-700 leading-relaxed cursor-pointer"
                                 >
                                     +65 83166856
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
 
                     {/* Contact Form Section */}
-                    <div className="bg-white w-[35vw] max-md:w-[95vw] flex flex-col items-center justify-center p-[2vw] max-md:p-[2.5vw] rounded-[.5vw] max-md:rounded-[2vw]">
+                    <div className="bg-white text-black w-[35vw] max-md:w-[95vw] flex flex-col items-center justify-center p-[2vw] max-md:p-[2.5vw] rounded-[.5vw] max-md:rounded-[2vw]">
                         <p className="text-[1.5vw] mb-[1vw] max-md:text-[5vw]">CONTACT US</p>
                         <form className="text-[1vw] max-md:text-[3vw] flex flex-col w-full gap-y-[1vw] max-md:gap-y-[4vw]">
                             <div className="flex w-full justify-center gap-x-[1vw] tracking-tighter max-md:flex-col max-md:gap-y-[2vw] flex-col">

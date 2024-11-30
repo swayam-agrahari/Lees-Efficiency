@@ -1,4 +1,4 @@
-'use client'
++'use client'
 import Image from "next/image";
 import Link from "next/link";
 import SideMenu from "../../components/navbar/sidemenu/sidemenu";
@@ -21,7 +21,7 @@ export default function Navbar({ open, hero, darkSection }) {
 
     return (
         <>
-            <nav className={`min-h-[5vw] z-50 sticky top-0 max-md:min-h-[15vw] backdrop-blur-md ${hero ? "" : "max-md:bg-black"} flex items-center text-[1vw] max-md:text-[5vw] w-full transition-transform ease-in-out duration-300 ${open ? "md:transform translate-y-0" : "md:transform -translate-y-full"}`}>
+            <nav className={`fixed top-0 min-h-[5vw] z-50 max-md:min-h-[15vw] backdrop-blur-md ${hero ? "" : "max-md:bg-black"} flex items-center text-[1vw] max-md:text-[5vw] w-full transition-transform ease-in-out duration-300 ${open ? "md:transform translate-y-0" : "md:transform -translate-y-full"}`}>
                 <motion.div
                     initial={{
                         opacity: 0,
