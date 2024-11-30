@@ -87,7 +87,7 @@ export default function RootLayout({ children }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
-    <div className={`${poppins.className} w-full bg-transparent overflow-hidden`}>
+    <div className={`${poppins.className} w-full bg-transparent`}>
 
       <Navbar open={open} darkSection={darkSection} hero={true} />
       <div className="w-full md:-mt-[6vw] max-md:-mt-[14vh] -mt-[10vh] ">
