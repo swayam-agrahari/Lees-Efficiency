@@ -9,7 +9,7 @@ import Image from "next/image"
 
 export default function ContactUsFooter(){
     return(
-        <div className="text-white bg-black min-h-[20vw] max-md:min-h-[200vw] flex flex-col px-[5vw] max-md:px-[2.5vw] max-md:py-[10vw]">
+        <div id="contact-footer" className="text-white bg-black min-h-[20vw] max-md:min-h-[200vw] flex flex-col px-[5vw] max-md:px-[2.5vw] max-md:py-[10vw]">
             <div className="min-h-[12vw] max-md:min-h-[50vw] flex max-md:flex-col-reverse items-center">
                 <div className="flex-1 w-full">
                     <p className="text-[2.2vw] max-md:text-[7vw] tracking-tight -mb-[1vw]">Get in touch</p>

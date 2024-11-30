@@ -15,7 +15,7 @@ export default function Publications() {
         setCurr('/');
     }
     return (
-        <div className="bg-white text-black 2xl:min-h-screen flex flex-col items-center py-[3vw]">
+        <div id="publications" className="bg-white text-black 2xl:min-h-screen flex flex-col items-center py-[3vw]">
             <div className="text-[4vw] flex justify-start w-full px-[2.5vw] tracking-tight max-md:text-[10vw] font-medium">Publications</div>
             <div className="flex justify-start w-full text-[4vw] px-[2.5vw] -mt-[1.7vw] mb-[2vw] max-md:mb-[6vw] tracking-tighter  max-md:text-[7vw] max-md:leading-[12vw] max-sm:leading-[10vw]">Advancing energy efficiency for a waste-free future.</div>
             <div className="border-b-[1px] border-solid border-black w-full"></div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SideMenu from "../../components/navbar/sidemenu/sidemenu";
 import Bars from "../svg/bars-3";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion"
 
 export default function Navbar({ open, hero, darkSection }) {
@@ -17,7 +17,11 @@ export default function Navbar({ open, hero, darkSection }) {
     ]
 
     const [openMenu, setOpenMenu] = useState(false);
-    const textColor = (hero || darkSection) ? "text-white hover:text-gray-300" : "text-black hover:text-red-500";
+    const [textColor, setTextColor] = useState((darkSection) ? "text-white hover:text-gray-300" : "text-black hover:text-red-500");
+
+    useEffect(()=>{
+        setTextColor((darkSection) ? "text-white hover:text-gray-300" : "text-black hover:text-red-500");
+    },[darkSection])
 
     return (
         <>
@@ -88,7 +92,7 @@ export default function Navbar({ open, hero, darkSection }) {
 
                 </motion.div>
                 <div className="flex justify-end items-center text-5xl px-5 md:hidden max-md:flex-1">
-                    <button className="text-[6vw]" onClick={() => { setOpenMenu(true) }}>
+                    <button className={`text-[6vw] ${darkSection?"":"text-black"}`} onClick={() => { setOpenMenu(true) }}>
                         <Bars />
                     </button>
                 </div>

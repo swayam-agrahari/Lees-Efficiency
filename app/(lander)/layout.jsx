@@ -13,41 +13,36 @@ export default function RootLayout({ children }) {
   const [open, setOpen] = useState(true);
   const scrollDir = useRef("scrolling down");
   const [hero, setHero] = useState(true);
-  const [darkSection, setDarkSection] = useState(false);
+  const [darkSection, setDarkSection] = useState(true);
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
     let ticking = false;
 
-    // const checkDarkSections = () => {
-    //     // Get all potential dark sections
-    //     const registerSection = document.getElementById('register');
-    //     const amritaSection = document.getElementById('about_amrita');
-    //     const why_participateSection = document.getElementById('why_participate');
-    //     //const heroSection = document.querySelector('video');  // Assuming hero has a video element
+    const checkDarkSections = () => {
+        const aboutUs = document.getElementById('about-us');
+        const publications = document.getElementById('publications');
+        const academy = document.getElementById('academy');
 
-    //     // Get the current scroll position
-    //     const scrollPosition = window.scrollY;
-    //     const navbarPosition = 50; // Approximate navbar height
+        const scrollPosition = window.scrollY;
+        const navbarPosition = 50;
 
-    //     // Check if navbar overlaps with any dark section
-    //     const isDark = [registerSection, amritaSection, why_participateSection].some(section => {
-    //         if (!section) return false;
-    //         const rect = section.getBoundingClientRect();
-    //         return rect.top <= navbarPosition && rect.bottom >= navbarPosition;
-    //     });
+        // Check for overlap
+        const isDark = [aboutUs, publications, academy].some(section => {
+            if (!section) return false;
+            const rect = section.getBoundingClientRect();
+            return rect.top <= navbarPosition && rect.bottom >= navbarPosition;
+        });
 
-    //     setDarkSection(isDark);
-    // };
+        setDarkSection(!isDark);
+    };
 
     const updateScrollDir = () => {
       const scrollY = window.scrollY;
       const windowHeight = window.innerHeight;
 
-      // Check dark sections
-      //   checkDarkSections();
+        checkDarkSections();
 
-      // Hero section check
       if (
         scrollY > windowHeight ||
         (window.innerWidth < 680 && scrollY > window.innerWidth)
@@ -74,18 +69,19 @@ export default function RootLayout({ children }) {
       if (!ticking) {
         window.requestAnimationFrame(() => {
           updateScrollDir();
-          // checkDarkSections(); // Check on every scroll
+          checkDarkSections(); // Check on every scroll
         });
         ticking = true;
       }
     };
 
     // Initial check
-    // checkDarkSections();
+    checkDarkSections();
 
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+  
   return (
     <div className={`${poppins.className} w-full bg-transparent`}>
 

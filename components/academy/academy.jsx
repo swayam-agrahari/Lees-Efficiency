@@ -1,6 +1,6 @@
 export default function Academy() {
   return (
-    <div className="bg-white text-black w-full flex flex-col items-center justify-center py-8">
+    <div id="academy" className="bg-white text-black w-full flex flex-col items-center justify-center py-8">
         <p className="text-[4vw] flex justify-start w-full px-[2.5vw] tracking-tight max-md:text-[10vw] font-medium mb-[2vw] max-md:mb-[5vw]">LEES Academy</p>
         {/* <p className="flex justify-start w-full text-[4vw] px-[2.5vw] -mt-[.8vw] mb-[2vw] max-md:mb-[6vw] tracking-tighter max-md:text-[7vw] md:leading-[4.5vw] max-md:leading-[12vw]">Here are some videos for learning some shit lee guy</p> */}
         <div className="w-full bg-black h-[1px] mb-[2vw]"></div>
