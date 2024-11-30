@@ -93,7 +93,10 @@ export default function Navbar({ open, hero, darkSection }) {
                     </button>
                 </div>
             </nav>
-            <SideMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
+            <div className="max-h-full ">
+
+                <SideMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
+            </div>
         </>
     );
 } 
