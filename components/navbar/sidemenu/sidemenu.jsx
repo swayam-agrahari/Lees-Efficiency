@@ -50,17 +50,17 @@ export default function SideMenu({ openMenu, setOpenMenu }) {
                             <Link href="/" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 Home
                             </Link>
-                            <Link href="/#about-us" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
+                            <Link href={`/#about-us`} onClick={() => { setOpenMenu(!openMenu) }} className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 About Us
                             </Link>
-                            <Link href="/#register" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
+                            <Link href="/#expertise" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 Expertise
                             </Link>
-                            <Link href="/halloffame" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
+                            <Link href="/awards" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 Awards
                             </Link>
                             <Link
-                                href="/registered-teams"
+                                href="/#academy"
                                 className="mx-[1vw] my-[1.5vw] mt-[4vw]"
                             >
                                 Less Academy
@@ -79,7 +79,7 @@ export default function SideMenu({ openMenu, setOpenMenu }) {
                         </li>
                     </ul>
 
-                </div>
+                </div >
             </div >
         </>
     );
