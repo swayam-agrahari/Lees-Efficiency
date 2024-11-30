@@ -16,17 +16,20 @@ export default function Lander() {
                 className="w-full min-h-[102vh]"
                 style={{
                     backgroundPosition: "bottom",
-                    backgroundSize: "cover"
+
                 }}
                 transition={{ ease: "linear", duration: 1.5 }}
             >
-                <Image
-                    src="/assets/bg.png"
-                    alt="background"
-                    fill
-                    className="w-full min-h-[102vh] scale-x-[-1]"
-                    unoptimized
-                ></Image>
+                <div className="w-full h-[102vh] relative overflow-hidden">
+                    <Image
+                        src="/assets/bg.png"
+                        alt="background"
+                        fill
+                        className="absolute top-0 left-0 scale-x-[-1] object-none max-sm:scale-x-[1] "
+                        unoptimized
+                    />
+                </div>
+
             </motion.div>
 
             <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-80"></div>
@@ -52,7 +55,7 @@ export default function Lander() {
                     <TextFade direction={"up"} className="flex  justify-start items-center gap-4 sm:gap-8 ">
                         <div onClick={scrollToAboutUs}>
                             <motion.button
-                                className="relative group border  border-[#d2c5b1] bg-[#d2c5b1]  text-black   px-6 py-2  [@media(max-width:320px)]:px-3  [@media(max-width:320px)]:py-2  md:px-10 md:py-3   rounded-3xl  transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-[#d2c5b1] hover:bg-transparent"
+                                className="relative group border  border-[#d2c5b1] bg-[#d2c5b1]  text-black  [@media(max-width:320px)]:px-2  [@media(max-width:320px)]:py-2    max-sm:px-3  max-sm:py-2  md:px-10 md:py-3   rounded-3xl  transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-[#d2c5b1] hover:bg-transparent"
                                 whileTap={{ scaleX: 1.5 }}
                             >
                                 <span className="relative group-hover:text-[#d2c5b1] [@media(max-width:320px)]:text-base text-lg ">About Us</span>
@@ -61,7 +64,7 @@ export default function Lander() {
                         </div>
                         <div onClick={scrollToAboutUs}>
                             <motion.button
-                                className="relative group border  border-[#d2c5b1] text-[#d2c5b1] [@media(max-width:320px)]:px-3  [@media(max-width:320px)]:py-1  px-6 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-black hover:bg-[#d2c5b1]  "
+                                className="relative group border  border-[#d2c5b1] text-[#d2c5b1] [@media(max-width:320px)]:px-2  [@media(max-width:320px)]:py-1  px-2 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-black hover:bg-[#d2c5b1]  "
                                 whileTap={{ scaleX: 1.5 }}
                             >
                                 <span className="relative group-hover:text-black text-lg">Contact Us</span>
