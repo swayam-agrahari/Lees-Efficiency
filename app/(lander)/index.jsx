@@ -3,6 +3,7 @@ import Image from "next/image";
 import { TextFade } from "../../components/framer/TextFade";
 import { motion } from "framer-motion";
 import Arrow from "../../components/svg/upward-arror";
+import Link from "next/link";
 
 export default function Lander() {
     const scrollToAboutUs = () => {
@@ -11,7 +12,7 @@ export default function Lander() {
     };
 
     return (
-        <div className="w-full  relative overflow-x-hidden">
+        <div className="w-full relative overflow-x-hidden">
             <motion.div
                 className="w-full min-h-[102vh]"
                 style={{
@@ -20,7 +21,7 @@ export default function Lander() {
                 }}
                 transition={{ ease: "linear", duration: 1.5 }}
             >
-                <div className="w-full h-[102vh] relative overflow-hidden">
+                <div className="w-full h-[102vh] bg-[#4e4831] relative overflow-hidden">
                     <Image
                         src="/assets/bg.png"
                         alt="background"
@@ -55,20 +56,24 @@ export default function Lander() {
                     <TextFade direction={"up"} className="flex  justify-start items-center gap-4 sm:gap-8 ">
                         <div onClick={scrollToAboutUs}>
                             <motion.button
-                                className="relative group border  border-[#d2c5b1] bg-[#d2c5b1]  text-black  [@media(max-width:320px)]:px-2  [@media(max-width:320px)]:py-2    max-sm:px-3  max-sm:py-2  md:px-10 md:py-3   rounded-3xl  transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-[#d2c5b1] hover:bg-transparent"
+                                className="relative group border border-[#d2c5b1] bg-[#d2c5b1] text-black rounded-3xl transition-all duration-300 ease-in-out flex items-center justify-center hover:text-[#d2c5b1] hover:bg-transparent overflow-hidden"
                                 whileTap={{ scaleX: 1.5 }}
                             >
-                                <span className="relative group-hover:text-[#d2c5b1] [@media(max-width:320px)]:text-base text-lg ">About Us</span>
-                                <span className="z-10"><Arrow /></span>
+                                <Link href="/#about-us" className="flex flex-1 [@media(max-width:320px)]:px-2 [@media(max-width:320px)]:py-2 max-sm:px-3 max-sm:py-2 md:px-10 md:py-3 gap-2">
+                                    <span className="relative group-hover:text-[#d2c5b1] [@media(max-width:320px)]:text-base text-lg ">About Us</span>
+                                    <span className="z-10"><Arrow /></span>
+                                </Link>
                             </motion.button>
                         </div>
                         <div onClick={scrollToAboutUs}>
                             <motion.button
-                                className="relative group border  border-[#d2c5b1] text-[#d2c5b1] [@media(max-width:320px)]:px-2  [@media(max-width:320px)]:py-1  px-2 py-2 md:px-10 md:py-3 rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex gap-2 items-center justify-center hover:text-black hover:bg-[#d2c5b1]  "
+                                className="relative group border border-[#d2c5b1] text-[#d2c5b1] rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex items-center justify-center hover:text-black hover:bg-[#d2c5b1]  "
                                 whileTap={{ scaleX: 1.5 }}
                             >
-                                <span className="relative group-hover:text-black text-lg">Contact Us</span>
-                                <span className="z-10"><Arrow /></span>
+                                <Link href="/#contact-form" className="flex flex-1 [@media(max-width:320px)]:px-2 [@media(max-width:320px)]:py-1 px-2 py-2 md:px-10 md:py-3 gap-2">
+                                    <span className="relative group-hover:text-black text-lg">Contact Us</span>
+                                    <span className="z-10"><Arrow /></span>
+                                </Link>
                             </motion.button>
                         </div>
                     </TextFade>

@@ -52,7 +52,7 @@ export default function AboutUs() {
                 </motion.div>
 
                 {/* Right Section: Zig-Zag Images */}
-                <div className="relative grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-6 items-center sm:overflow-visible overflow-hidden sm:justify-start justify-center">
+                <div className="relative grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-6 items-center sm:overflow-visible overflow-hidden sm:justify-start justify-center max-md:hidden">
                     {/* Top Image */}
                     <motion.div
                         className="relative w-64 max-h-64 sm:w-full lg:w-80 h-auto rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[3deg] lg:translate-x-[5vw] lg:scale-125 2xl:translate-x-[10vw] lg:translate-y-[1vw]"
