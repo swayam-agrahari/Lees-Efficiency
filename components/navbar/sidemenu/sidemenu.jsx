@@ -47,20 +47,21 @@ export default function SideMenu({ openMenu, setOpenMenu }) {
                     </button>
                     <TextFade>
                         <div className="flex flex-col flex-1 justify-center items-start text-[6vw]">
-                            <Link href="/" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
+                            <Link href="/" onClick={() => { setOpenMenu(!openMenu) }} className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 Home
                             </Link>
                             <Link href={`/#about-us`} onClick={() => { setOpenMenu(!openMenu) }} className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 About Us
                             </Link>
-                            <Link href="/#expertise" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
+                            <Link href="/#expertise" onClick={() => { setOpenMenu(!openMenu) }} className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 Expertise
                             </Link>
-                            <Link href="/awards" className="mx-[1vw] my-[1.5vw] mt-[4vw]">
+                            <Link href="/awards" onClick={() => { setOpenMenu(!openMenu) }} className="mx-[1vw] my-[1.5vw] mt-[4vw]">
                                 Awards
                             </Link>
                             <Link
                                 href="/#academy"
+                                onClick={() => { setOpenMenu(!openMenu) }}
                                 className="mx-[1vw] my-[1.5vw] mt-[4vw]"
                             >
                                 Less Academy
