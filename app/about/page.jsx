@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="min-h-screen bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 border">
             {/* Hero Section */}
             <section className="py-20 px-6 lg:px-24">
-                <div className="max-w-6xl mx-auto">
+                <div className=" mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -31,7 +31,7 @@ export default function AboutPage() {
 
             {/* Founder Section */}
             <section className="py-20 px-6 lg:px-24 bg-gray-100">
-                <div className="max-w-6xl mx-auto">
+                <div className=" mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -64,7 +64,7 @@ export default function AboutPage() {
 
             {/* Team Members */}
             <section className="py-20 px-6 lg:px-24">
-                <div className="max-w-6xl mx-auto">
+                <div className=" mx-auto">
                     <div className="space-y-16">
                         {aboutData.team_members.map((member, index) => (
                             <motion.div
@@ -87,7 +87,7 @@ export default function AboutPage() {
 
             {/* Contact Section */}
             <section className="py-20 px-6 lg:px-24 bg-gray-100">
-                <div className="max-w-6xl mx-auto text-center">
+                <div className=" mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
