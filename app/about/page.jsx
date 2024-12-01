@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import aboutData from "../../components/json/about.json";
+import Link from "next/link";
 
 export default function AboutPage() {
     useEffect(() => {
@@ -97,12 +98,14 @@ export default function AboutPage() {
                         <p className="text-gray-700">
                             Interested in learning more about our energy solutions? Contact us today.
                         </p>
-                        <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            className="bg-gray-800 text-white px-8 py-3 rounded-full hover:bg-gray-900 transition-colors"
-                        >
-                            Contact Us
-                        </motion.button>
+                        <Link href="/#contact-form" scroll={true}>
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                className="bg-gray-800 text-white px-8 py-3 rounded-full hover:bg-gray-900 transition-colors"
+                            >
+                                Contact Us
+                            </motion.button>
+                        </Link>
                     </motion.div>
                 </div>
             </section>
