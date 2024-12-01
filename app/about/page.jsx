@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import aboutData from "../../components/json/about.json";
+import Link from "next/link";
+import Arrow from "../../components/svg/upward-arror";
 
 export default function AboutPage() {
     useEffect(() => {
@@ -12,7 +14,7 @@ export default function AboutPage() {
         <div className="min-h-screen bg-gradient-to-b from-white via-gray-100 to-gray-200 text-gray-900 border">
             {/* Hero Section */}
             <section className="py-20 px-6 lg:px-24">
-                <div className="max-w-6xl mx-auto">
+                <div className=" mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -31,7 +33,7 @@ export default function AboutPage() {
 
             {/* Founder Section */}
             <section className="py-20 px-6 lg:px-24 bg-gray-100">
-                <div className="max-w-6xl mx-auto">
+                <div className=" mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -64,7 +66,7 @@ export default function AboutPage() {
 
             {/* Team Members */}
             <section className="py-20 px-6 lg:px-24">
-                <div className="max-w-6xl mx-auto">
+                <div className=" mx-auto">
                     <div className="space-y-16">
                         {aboutData.team_members.map((member, index) => (
                             <motion.div
@@ -87,22 +89,26 @@ export default function AboutPage() {
 
             {/* Contact Section */}
             <section className="py-20 px-6 lg:px-24 bg-gray-100">
-                <div className="max-w-6xl mx-auto text-center">
+                <div className=" mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         className="space-y-8"
                     >
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">Get in Touch</h2>
-                        <p className="text-gray-700">
+                        <p className="text-gray-700 pb-6">
                             Interested in learning more about our energy solutions? Contact us today.
                         </p>
-                        <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            className="bg-gray-800 text-white px-8 py-3 rounded-full hover:bg-gray-900 transition-colors"
-                        >
-                            Contact Us
-                        </motion.button>
+                        <Link href="/#contact-form" scroll={true}>
+                            <div className="flex justify-center">
+                                <motion.button
+                                    className="relative group border border-gray-800 bg-gray-800 text-white rounded-3xl overflow-hidden transition-all duration-300 ease-in-out flex items-center justify-center hover:text-gray-800 hover:bg-transparent px-8 py-3 gap-2"
+                                    whileHover={{ scale: 1.05 }}>
+                                    <span className="relative group-hover:text-gray-800 text-lg">Contact Us</span>
+                                    <span className="z-10"><Arrow /></span>
+                                </motion.button>
+                            </div>    
+                        </Link>
                     </motion.div>
                 </div>
             </section>
