@@ -31,38 +31,42 @@ export default function ContactUsFooter(){
                     <div className="flex-1">
                         <p className="text-[1.2vw] max-md:text-[3.5vw] max-md:mb-[1vw] text-[#737373] font-semibold">Quick Links</p>
                         <div className="flex flex-col flex-1 gap-y-[.3vw] max-md:gap-y-[3vw] text-[1.1vw] max-md:text-[3.5vw] font-light mr-[2vw]">
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                Home
-                            </p>
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                About Us
-                            </p>
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                Expertise
-                            </p>
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                Lees Academy
-                            </p>
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                Awards
-                            </p>
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                Contact Us
-                            </p>
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                Privacy Policy
-                            </p>
-                            <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
-                                <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
-                                Terms & Privacy
-                            </p>
+                        <Link href="/" passHref>
+                                <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
+                                    <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
+                                    Home
+                                </p>
+                            </Link>
+                            <Link href="/#about-us" passHref>
+                                <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
+                                    <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
+                                    About Us
+                                </p>
+                            </Link>
+                            <Link href="/#expertise" passHref>
+                                <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
+                                    <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
+                                    Expertise
+                                </p>
+                            </Link>
+                            <Link href="/#academy" passHref>
+                                <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
+                                    <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
+                                    Lees Academy
+                                </p>
+                            </Link>
+                            <Link href="/#awards" passHref>
+                                <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
+                                    <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
+                                    Awards
+                                </p>
+                            </Link>
+                            <Link href="/#contact-form" passHref>
+                                <p className="flex items-center gap-x-[.4vw] max-md:gap-x-[1.5vw] hover:bg-white group rounded-full hover:text-black">
+                                    <span className="h-[.4vw] w-[.4vw] max-md:h-[1vw] max-md:w-[1vw] bg-white md:bg-[#737373] group-hover:bg-white md:rounded-full"></span>
+                                    Contact Us
+                                </p>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex-1">
