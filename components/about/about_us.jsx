@@ -23,7 +23,7 @@ export default function AboutUs() {
                     transition={{ duration: 1 }}
                     className="space-y-6 lg:space-y-8"
                 >
-                    <p className="text-[4vw] max-md:text-[13vw] text-black w-full max-w-[90vw] mb-[3vw]  text-start">
+                    <p className="text-[4vw] max-md:text-[13vw] text-black w-full max-w-[90vw] mb-[3vw] text-start">
                         About Us
                     </p>
                     <p className="text-base [@media(max-width:320px)]:text-sm sm:text-xl lg:text-2xl leading-relaxed text-gray-700">
@@ -55,7 +55,7 @@ export default function AboutUs() {
                 <div className="relative grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-6 items-center sm:overflow-visible overflow-hidden sm:justify-start justify-center max-md:hidden">
                     {/* Top Image */}
                     <motion.div
-                        className="relative w-64 max-h-64 sm:w-full lg:w-80 h-auto rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[3deg] lg:translate-x-[5vw] lg:scale-125 2xl:translate-x-[10vw] lg:translate-y-[1vw]"
+                        className="relative w-64 max-h-64 sm:w-full lg:w-80 h-auto rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[3deg] lg:translate-x-[25vw] lg:scale-100 lg:translate-y-[1vw]"
                     >
                         <Image
                             alt="Top Image"
@@ -67,9 +67,9 @@ export default function AboutUs() {
                         />
                     </motion.div>
 
-                    {/* Middle Image */}
+                    {/* Middle Image (Main Focus) */}
                     <motion.div
-                        className="relative w-64 max-h-64 sm:w-full lg:w-80 h-auto rounded-lg overflow-hidden transform sm:rotate-0 lg:translate-x-[28vw] lg:scale-125"
+                        className="relative w-64 max-h-64 sm:w-full lg:w-80 h-auto rounded-lg overflow-hidden transform sm:rotate-0 lg:scale-125 lg:translate-x-[5vw] 2xl:translate-x-[7vw]"
                     >
                         <Image
                             alt="Middle Image"
@@ -83,7 +83,7 @@ export default function AboutUs() {
 
                     {/* Bottom Image */}
                     <motion.div
-                        className="relative w-64 max-h-64 sm:w-full lg:w-80 h-auto rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[-3deg] lg:translate-x-[5vw] lg:scale-125 2xl:translate-x-[10vw] lg:translate-y-[-1vw]"
+                        className="relative w-64 max-h-64 sm:w-full lg:w-80 h-auto rounded-lg overflow-hidden transform sm:rotate-0 lg:rotate-[-3deg] lg:translate-x-[25vw] lg:scale-100 lg:translate-y-[-1vw]"
                     >
                         <Image
                             alt="Bottom Image"
