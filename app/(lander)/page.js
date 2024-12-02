@@ -8,6 +8,7 @@ import Lander from ".";
 import ContactUsForm from "../../components/contact-us/contact_us_form";
 import ContactUsFooter from "../../components/contact-us/contact_us_footer";
 import Publications from "../../components/publications/publications";
+import Awards from "../../components/awards/awards";
 
 export default function Home() {
   const ref = useRef(null);
@@ -48,6 +49,7 @@ export default function Home() {
           <div className="border-y-[1px] border-solid border-black min-h-[4vw] max-md:min-h-[10vw]"></div>
         </div>
         <Publications />
+        <Awards/>
         <ContactUsForm />
         <div className="w-full px-[5vw] mt-[5vw] mb-[1vw]">
           <div className="border-t-[#737373] border-solid border-t-2 max-w-[90vw]"></div>
