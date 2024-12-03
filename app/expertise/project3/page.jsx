@@ -17,6 +17,7 @@ export default function Project3() {
                         alt="Temasek Polytechnic in Singapore"
                         width={1200}
                         height={600}
+                        unoptimized
                         className="w-full h-96 object-cover rounded-lg shadow-lg"
                     />
                 </div>
