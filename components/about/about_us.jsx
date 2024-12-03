@@ -60,10 +60,10 @@ export default function AboutUs() {
                         <Image
                             alt="Top Image"
                             src="/assets/founders/founder1.jpg"
-                            layout="intrinsic"
                             width={250}
                             height={250}
                             className="object-cover"
+                            unoptimized
                         />
                     </motion.div>
 
@@ -74,7 +74,7 @@ export default function AboutUs() {
                         <Image
                             alt="Middle Image"
                             src="/assets/founders/lees.png"
-                            layout="intrinsic"
+                            unoptimized
                             width={250}
                             height={250}
                             className="object-cover"
@@ -88,7 +88,7 @@ export default function AboutUs() {
                         <Image
                             alt="Bottom Image"
                             src="/assets/founders/founder2.jpg"
-                            layout="intrinsic"
+                            unoptimized
                             width={250}
                             height={250}
                             className="object-cover"
