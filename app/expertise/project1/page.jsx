@@ -18,6 +18,7 @@ export default function Project1() {
                         width={1200}
                         height={600}
                         className="w-full h-96 object-cover rounded-lg shadow-lg"
+                        unoptimized
                     />
                 </div>
 

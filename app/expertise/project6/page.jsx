@@ -17,6 +17,7 @@ export default function Project6() {
                         alt="South African Future Grid Initiative"
                         width={1200}
                         height={600}
+                        unoptimized
                         className="w-full h-96 object-cover rounded-lg shadow-lg"
                     />
                 </div>

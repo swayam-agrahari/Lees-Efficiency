@@ -17,6 +17,7 @@ export default function Project2() {
                         alt="Grand Hyatt In Singapore"
                         width={1200}
                         height={600}
+                        unoptimized
                         className="w-full h-96 object-cover rounded-lg shadow-lg"
                     />
                 </div>
