@@ -20,7 +20,7 @@
   "project2": {
     "dest": "Singapore",
     "title": "Grand Hyatt In Singapore",
-    "link": "/expertise//project2",
+    "link": "/expertise/project2",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/2.webp",
     "highlights": [
@@ -88,14 +88,14 @@
   "project3": {
     "dest": "SingPost Centre",
     "title": "SingPost Centre",
-    "link": "/expertise//project3",
+    "link": "/expertise/project3",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/3.png"
   },
   "project4": {
     "dest": "Republic Plaza",
     "title": "Republic Plaza",
-    "link": "/expertise//project4",
+    "link": "/expertise/project4",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "subtitle": "Infrastructure Enhancements At Republic Plaza To Result In Energy Savings Of S$870,000 Annually",
     "author": "Trane High Performance Buildings December 27, 2012",
@@ -105,7 +105,7 @@
   "project5": {
     "dest": "Tampines Campus",
     "title": "United World College",
-    "link": "/expertise//project5",
+    "link": "/expertise/project5",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/5.jpg",
     "highlights": [
@@ -117,7 +117,7 @@
   "project6": {
     "dest": "MEWR Retrofit",
     "title": "MEWR Retrofit",
-    "link": "/expertise//project6",
+    "link": "/expertise/project6",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/6.JPG"
   }
