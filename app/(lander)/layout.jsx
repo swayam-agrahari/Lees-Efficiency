@@ -20,28 +20,28 @@ export default function RootLayout({ children }) {
     let ticking = false;
 
     const checkDarkSections = () => {
-        const aboutUs = document.getElementById('about-us');
-        const publications = document.getElementById('publications');
-        const academy = document.getElementById('academy');
+      const aboutUs = document.getElementById('about-us');
+      const awards = document.getElementById('awards');
+      const academy = document.getElementById('academy');
 
-        const scrollPosition = window.scrollY;
-        const navbarPosition = 50;
+      const scrollPosition = window.scrollY;
+      const navbarPosition = 50;
 
-        // Check for overlap
-        const isDark = [aboutUs, publications, academy].some(section => {
-            if (!section) return false;
-            const rect = section.getBoundingClientRect();
-            return rect.top <= navbarPosition && rect.bottom >= navbarPosition;
-        });
+      // Check for overlap
+      const isDark = [aboutUs,awards, academy].some(section => {
+        if (!section) return false;
+        const rect = section.getBoundingClientRect();
+        return rect.top <= navbarPosition && rect.bottom >= navbarPosition;
+      });
 
-        setDarkSection(!isDark);
+      setDarkSection(!isDark);
     };
 
     const updateScrollDir = () => {
       const scrollY = window.scrollY;
       const windowHeight = window.innerHeight;
 
-        checkDarkSections();
+      checkDarkSections();
 
       if (
         scrollY > windowHeight ||
@@ -81,7 +81,7 @@ export default function RootLayout({ children }) {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-  
+
   return (
     <div className={`${poppins.className} w-full bg-transparent`}>
 
