@@ -28,7 +28,7 @@ export default function ExportiseCard({ data }) {
                 <div className="flex-1 flex items-end my-2">
                     <Link
                         target="_blank"
-                        href={`${process.env.NEXT_PUBLIC_BASE_URL}/${data.link}`}
+                        href={`${data.link}`}
                         className="border-solid border hover:text-white hover:bg-black border-[#737373] md:group-hover:border-black rounded-full min-w-1/2 sm:min-w-[30%] flex py-[.3vw] px-[1vw] transition duration-500 ease-out mt-2  justify-center items-center">
                         <p className="text-lg [@media(max-width:320px)]:text-sm sm:text-[1.2vw] py-1 px-1 mr-[.5vw]">More information</p>
                         <p className="-rotate-90 [&>*]:size-[1vw] ">
