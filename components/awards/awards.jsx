@@ -1,4 +1,4 @@
-import Image from "next/image"; 
+import Image from "next/image";
 
 export default function Awards() {
   return (
@@ -9,16 +9,16 @@ export default function Awards() {
       <div className="w-full bg-black h-[1px] mb-[2vw]"></div>
       <div className="min-w-[95vw]">
         <div className="w-full h-full max-w-[95vw] flex flex-wrap justify-between gap-4">
-          
+
           {/* Image 1 with Hover Overlay */}
           <div className="relative w-[100%] md:w-[48%] bg-gray-100 shadow-lg overflow-hidden group">
             <Image
               src="/assets/ACEEE_Award.png"
               alt="First Image"
-              layout="responsive"
               width={1920}
               height={1080}
               className="rounded-lg shadow-lg md:pt-[9vw]"
+              unoptimized
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <p className="text-white text-lg font-semibold text-center px-4">
@@ -32,10 +32,10 @@ export default function Awards() {
             <Image
               src="/assets/award2.png"
               alt="Second Image"
-              layout="responsive"
               width={1920}
               height={1080}
               className="rounded-lg shadow-lg"
+              unoptimized
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <p className="text-white text-lg font-semibold text-center px-4">
