@@ -18,6 +18,14 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Set your private key in GitHub Secrets
 
+    - name: Install sshpass
+      run: sudo apt-get install -y sshpass
+
+    - name: Set up SSH with passphrase
+      run: |
+        sshpass -p "${{ secrets.SSH_PASSPHRASE }}" ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+
+
     - name: Deploy to cPanel
       run: |
         ssh -o StrictHostKeyChecking=no leesuqgj@198.54.116.2 "
