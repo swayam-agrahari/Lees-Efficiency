@@ -2,8 +2,7 @@
   "project1": {
     "dest": "galen@science park",
     "title": "The Galen, HQ of Ascendas",
-    "link": "/expertise/the-galen-hq-of-ascendas",
-    "person": "Bruce Lee",
+    "link": "/expertise/project1",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/1.jpg",
     "imagebrief": "Galen chiller plant room- uncluttered, minimization of sharp bends, long straight lines where possible. Notice the pumps are positioned to optimize pipe layout, not the other way around.",
@@ -21,8 +20,7 @@
   "project2": {
     "dest": "Singapore",
     "title": "Grand Hyatt In Singapore",
-    "link": "/expertise/grand-hyatt-in-singapore",
-    "person": "Bruce Lee",
+    "link": "/expertise//project2",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/2.webp",
     "highlights": [
@@ -90,16 +88,14 @@
   "project3": {
     "dest": "SingPost Centre",
     "title": "SingPost Centre",
-    "link": "/expertise/singpost-centre",
-    "person": "Bruce Lee",
+    "link": "/expertise//project3",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/3.png"
   },
   "project4": {
     "dest": "Republic Plaza",
     "title": "Republic Plaza",
-    "link": "/expertise/republic-plaza",
-    "person": "Bruce Lee",
+    "link": "/expertise//project4",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "subtitle": "Infrastructure Enhancements At Republic Plaza To Result In Energy Savings Of S$870,000 Annually",
     "author": "Trane High Performance Buildings December 27, 2012",
@@ -109,8 +105,7 @@
   "project5": {
     "dest": "Tampines Campus",
     "title": "United World College",
-    "link": "/expertise/tampines-campus",
-    "person": "Bruce Lee",
+    "link": "/expertise//project5",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/5.jpg",
     "highlights": [
@@ -122,8 +117,7 @@
   "project6": {
     "dest": "MEWR Retrofit",
     "title": "MEWR Retrofit",
-    "link": "/expertise/mewr-retrofit",
-    "person": "Bruce Lee",
+    "link": "/expertise//project6",
     "spec": "400 M² / Pièces 8 / 4 Chambres / magasins / bus / terrace / garage / piscine / lake",
     "image": "/assets/expertise/6.JPG"
   }
